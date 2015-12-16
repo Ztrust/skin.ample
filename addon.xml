@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="skin.ample"
+	version="2.0.2"
+	name="ample"
+	provider-name="Hitcher">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+	</requires>
+	<extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Created by Hitcher / Textures courtesy of Jezz_X</summary>
+		<description>'Foundation' is a basic, fully functional XBMC skin designed to be used as a base for creating a new skin; or simply as a learning tool for the beginner.</description>
+	</extension>
+</addon>
