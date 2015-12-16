@@ -10,8 +10,8 @@
 
 		<control type="list" id="100">
 			<description>List</description>
-			<posx>15</posx>
-			<posy>210</posy>
+			<left>15</left>
+			<top>210</top>
 			<width>450</width>
 			<height>720</height>
 			<onup>100</onup>
@@ -31,7 +31,7 @@
 				</control>
 
 				<control type="label">
-					<posx>30</posx>
+					<left>30</left>
 					<width>390</width>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
@@ -48,7 +48,7 @@
 				</control>
 
 				<control type="label">
-					<posx>30</posx>
+					<left>30</left>
 					<width>390</width>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
@@ -80,8 +80,8 @@
 		</control>
 
 		<control type="group" id="99">
-			<posx>510</posx>
-			<posy>210</posy>
+			<left>510</left>
+			<top>210</top>
 
 			<control type="grouplist" id="200">
 				<description>Control Area</description>

@@ -8,8 +8,8 @@
 
 			<control type="image">
 				<description>Non Movie cover image</description>
-				<posx>45</posx>
-				<posy>45</posy>
+				<left>45</left>
+				<top>45</top>
 				<width>510</width>
 				<height>390</height>
 				<fadetime>200</fadetime>
@@ -22,8 +22,8 @@
 
 			<control type="image">
 				<description>Movie cover image</description>
-				<posx>45</posx>
-				<posy>45</posy>
+				<left>45</left>
+				<top>45</top>
 				<width>510</width>
 				<height>480</height>
 				<fadetime>200</fadetime>
@@ -36,8 +36,8 @@
 
 			<control type="label">
 				<description>Chapter Count</description>
-				<posx>45</posx>
-				<posy>864</posy>
+				<left>45</left>
+				<top>864</top>
 				<width>450</width>
 				<label>$INFO[Player.Chapter,[COLOR=blue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ]</label>
 				<align>left</align>
@@ -48,8 +48,8 @@
 			</control>
 
 			<control type="label">
-				<posx>45</posx>
-				<posy>915</posy>
+				<left>45</left>
+				<top>915</top>
 				<width>1320</width>
 				<label>$INFO[VideoPlayer.TVShowTitle] - ($INFO[VideoPlayer.Season]$INFO[VideoPlayer.Episode,x])</label>
 				<align>left</align>
@@ -59,8 +59,8 @@
 			</control>
 
 			<control type="label">
-				<posx>45</posx>
-				<posy>915</posy>
+				<left>45</left>
+				<top>915</top>
 				<width>1320</width>
 				<label>$INFO[VideoPlayer.Artist]$INFO[VideoPlayer.Album, - ]</label>
 				<align>left</align>
@@ -70,8 +70,8 @@
 			</control>
 
 			<control type="label">
-				<posx>45</posx>
-				<posy>966</posy>
+				<left>45</left>
+				<top>966</top>
 				<width>1320</width>
 				<label>$INFO[VideoPlayer.Title]</label>
 				<scroll>true</scroll>
@@ -82,8 +82,8 @@
 
 			<control type="label">
 				<description>Player Times</description>
-				<posx>1875</posx>
-				<posy>915</posy>
+				<left>1875</left>
+				<top>915</top>
 				<width>750</width>
 				<label>$INFO[Player.Time]$INFO[Player.Duration, / ]</label>
 				<align>right</align>
@@ -93,8 +93,8 @@
 
 			<control type="label">
 				<description>Current Video End Time</description>
-				<posx>1875</posx>
-				<posy>966</posy>
+				<left>1875</left>
+				<top>966</top>
 				<width>1335</width>
 				<label>[COLOR=blue]$LOCALIZE[31000][/COLOR] : $INFO[Player.FinishTime]</label>
 				<align>right</align>
@@ -104,8 +104,8 @@
 
 			<control type="progress">
 				<description>Progressbar</description>
-				<posx>45</posx>
-				<posy>45r</posy>
+				<left>45</left>
+				<top>45r</top>
 				<width>1830</width>
 				<height>21</height>
 				<info>Player.Progress</info>

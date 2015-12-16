@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>510</posx>
-			<posy>210</posy>
+			<left>510</left>
+			<top>210</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>960</width>
 				<height>744</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 			<control type="radiobutton" id="4">
 				<description>Enable Login Screen</description>
-				<posx>15</posx>
-				<posy>54</posy>
+				<left>15</left>
+				<top>54</top>
 				<width>870</width>
 				<label>20096</label>
 				<align>left</align>
@@ -34,8 +34,8 @@
 			</control>
 
 			<control type="list" id="2">
-				<posx>15</posx>
-				<posy>159</posy>
+				<left>15</left>
+				<top>159</top>
 				<width>870</width>
 				<height>483</height>
 				<onleft>-</onleft>
@@ -52,13 +52,13 @@
 					</control>
 
 					<control type="label">
-						<posx>20</posx>
+						<left>20</left>
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>850</posx>
+						<left>850</left>
 						<width>810</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -76,13 +76,13 @@
 					</control>
 
 					<control type="label">
-						<posx>20</posx>
+						<left>20</left>
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>850</posx>
+						<left>850</left>
 						<width>810</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>

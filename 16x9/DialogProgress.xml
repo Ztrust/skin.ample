@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>570</posx>
-			<posy>333</posy>
+			<left>570</left>
+			<top>333</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>840</width>
 				<height>414</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,7 +22,7 @@
 
 			<control type="label" id="1">
 				<description>heading</description>
-				<posx>15</posx>
+				<left>15</left>
 				<width>750</width>
 				<label>-</label>
 				<font>Medium</font>
@@ -32,32 +32,32 @@
 
 			<control type="label" id="2">
 				<description>Line 1</description>
-				<posx>15</posx>
-				<posy>75</posy>
+				<left>15</left>
+				<top>75</top>
 				<width>750</width>
 				<label>-</label>
 			</control>
 
 			<control type="label" id="3">
 				<description>Line 2</description>
-				<posx>15</posx>
-				<posy>113</posy>
+				<left>15</left>
+				<top>113</top>
 				<width>750</width>
 				<label>-</label>
 			</control>
 
 			<control type="label" id="4">
 				<description>Line 3</description>
-				<posx>15</posx>
-				<posy>150</posy>
+				<left>15</left>
+				<top>150</top>
 				<width>750</width>
 				<label>-</label>
 			</control>
 
 			<control type="progress">
 				<description>Progressbar</description>
-				<posx>15</posx>
-				<posy>225</posy>
+				<left>15</left>
+				<top>225</top>
 				<width>750</width>
 				<height>27</height>
 				<info>System.Progressbar</info>
@@ -65,8 +65,8 @@
 
 			<control type="button" id="10">
 				<description>Cancel</description>
-				<posx>278</posx>
-				<posy>267</posy>
+				<left>278</left>
+				<top>267</top>
 				<width>225</width>
 				<label>222</label>
 				<onleft>10</onleft>

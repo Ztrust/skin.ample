@@ -7,8 +7,8 @@
 		<description>List View (id=50)</description>
 
 		<control type="list" id="50">
-			<posx>330</posx>
-			<posy>57</posy>
+			<left>330</left>
+			<top>57</top>
 			<width>960</width>
 			<height>966</height>
 			<onleft>9000</onleft>
@@ -32,7 +32,7 @@
 				</control>
 
 				<control type="label">
-					<posx>30</posx>
+					<left>30</left>
 					<width>900</width>
 					<font>Medium</font>
 					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
@@ -50,7 +50,7 @@
 				</control>
 
 				<control type="label">
-					<posx>30</posx>
+					<left>30</left>
 					<width>900</width>
 					<font>Medium</font>
 					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
@@ -61,8 +61,8 @@
 		</control>
 
 		<control type="image">
-			<posx>1380</posx>
-			<posy>210</posy>
+			<left>1380</left>
+			<top>210</top>
 			<width>480</width>
 			<height>660</height>
 			<fadetime>100</fadetime>
@@ -74,8 +74,8 @@
 		</control>
 
 		<control type="scrollbar" id="60">
-			<posx>1317</posx>
-			<posy>51</posy>
+			<left>1317</left>
+			<top>51</top>
 			<height>978</height>
 			<onleft>50</onleft>
 			<onright>9000</onright>

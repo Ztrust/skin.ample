@@ -9,8 +9,8 @@
 		<include>GlobalBackground</include>
 
 		<control type="list" id="9000">
-			<posx>780</posx>
-			<posy>162</posy>
+			<left>780</left>
+			<top>162</top>
 			<width>360</width>
 			<height>966</height>
 			<onup>9000</onup>
@@ -26,7 +26,7 @@
 				</control>
 
 				<control type="label">
-					<posx>180</posx>
+					<left>180</left>
 					<width>300</width>
 					<font>Medium</font>
 					<align>center</align>
@@ -44,7 +44,7 @@
 				</control>
 
 				<control type="label">
-					<posx>180</posx>
+					<left>180</left>
 					<width>300</width>
 					<font>Medium</font>
 					<align>center</align>

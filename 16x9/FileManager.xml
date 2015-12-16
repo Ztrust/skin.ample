@@ -10,12 +10,12 @@
 
 		<control type="group">
 			<description>Left panel</description>
-			<posx>75</posx>
-			<posy>78</posy>
+			<left>75</left>
+			<top>78</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>870</width>
 				<height>1020</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -23,7 +23,7 @@
 
 			<control type="label" id="101">
 				<description>Header Label</description>
-				<posx>23</posx>
+				<left>23</left>
 				<width>780</width>
 				<align>left</align>
 				<label>-</label>
@@ -33,8 +33,8 @@
 
 			<control type="list" id="20">
 				<description>Left File List</description>
-				<posx>15</posx>
-				<posy>96</posy>
+				<left>15</left>
+				<top>96</top>
 				<width>780</width>
 				<height>759</height>
 				<onleft>21</onleft>
@@ -51,14 +51,14 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>720</width>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>750</posx>
+						<left>750</left>
 						<width>150</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -76,14 +76,14 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>720</width>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>750</posx>
+						<left>750</left>
 						<width>720</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -95,8 +95,8 @@
 
 			<control type="label" id="12">
 				<description>Header Label</description>
-				<posx>23</posx>
-				<posy>882</posy>
+				<left>23</left>
+				<top>882</top>
 				<width>480</width>
 				<align>left</align>
 				<label>-</label>
@@ -106,12 +106,12 @@
 
 		<control type="group">
 			<description>Right panel</description>
-			<posx>1035</posx>
-			<posy>78</posy>
+			<left>1035</left>
+			<top>78</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>870</width>
 				<height>1020</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -119,7 +119,7 @@
 
 			<control type="label" id="102">
 				<description>Header Label</description>
-				<posx>23</posx>
+				<left>23</left>
 				<width>480</width>
 				<align>left</align>
 				<label>-</label>
@@ -129,8 +129,8 @@
 
 			<control type="list" id="21">
 				<description>Right File List</description>
-				<posx>15</posx>
-				<posy>96</posy>
+				<left>15</left>
+				<top>96</top>
 				<width>780</width>
 				<height>759</height>
 				<onleft>20</onleft>
@@ -147,14 +147,14 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>720</width>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>750</posx>
+						<left>750</left>
 						<width>150</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -172,14 +172,14 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>720</width>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>750</posx>
+						<left>750</left>
 						<width>720</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -191,8 +191,8 @@
 
 			<control type="label" id="13">
 				<description>Header Label</description>
-				<posx>23</posx>
-				<posy>882</posy>
+				<left>23</left>
+				<top>882</top>
 				<width>480</width>
 				<align>left</align>
 				<label>-</label>

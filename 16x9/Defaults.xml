@@ -3,8 +3,8 @@
 <includes>
 
 	<default type="label">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<label>-</label>
 		<height>66</height>
 		<align>left</align>
@@ -17,8 +17,8 @@
 	</default>
 
 	<default type="fadelabel">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<height>66</height>
 		<label>-</label>
 		<align>left</align>
@@ -33,8 +33,8 @@
 	</default>
 
 	<default type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>-</width>
 		<height>-</height>
 		<align>center</align>
@@ -43,8 +43,8 @@
 	</default>
 
 	<default type="button">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>450</width>
 		<height>66</height>
 		<align>center</align>
@@ -61,8 +61,8 @@
 	</default>
 
 	<default type="togglebutton">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>450</width>
 		<height>66</height>
 		<label>-</label>
@@ -81,8 +81,8 @@
 	</default>
 
 	<default type="radiobutton">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>450</width>
 		<height>66</height>
 		<align>center</align>
@@ -103,8 +103,8 @@
 	</default>
 
 	<default type="spincontrolex">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>450</width>
 		<height>66</height>
 		<label>-</label>
@@ -128,8 +128,8 @@
 	</default>
 
 	<default type="spincontrol">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<height>23</height>
 		<width>23</width>
 		<spinwidth>39</spinwidth>
@@ -150,8 +150,8 @@
 	</default>
 
 	<default type="sliderex">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<height>66</height>
 		<width>450</width>
 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
@@ -170,8 +170,8 @@
 	</default>
 
 	<default type="progress">
-		<posx>345</posx>
-		<posy>488</posy>
+		<left>345</left>
+		<top>488</top>
 		<texturebg border="6">other_textures/OSD/ProgressBack.png</texturebg>
 		<lefttexture>-</lefttexture>
 		<midtexture border="6">other_textures/OSD/ProgressMid.png</midtexture>
@@ -180,8 +180,8 @@
 	</default>
 
 	<default type="slider">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>360</width>
 		<height>23</height>
 		<texturefocus>-</texturefocus>

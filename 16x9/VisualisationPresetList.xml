@@ -7,12 +7,12 @@
 	<controls>
 
 		<control type="group">
-			<posx>510</posx>
-			<posy>300</posy>
+			<left>510</left>
+			<top>300</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>960</width>
 				<height>744</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -20,7 +20,7 @@
 
 			<control type="label">
 				<description>Header Label</description>
-				<posx>15</posx>
+				<left>15</left>
 				<width>840</width>
 				<label>31032</label>
 				<font>Medium</font>
@@ -30,8 +30,8 @@
 
 			<control type="list" id="2">
 				<description>Preset List</description>
-				<posx>15</posx>
-				<posy>87</posy>
+				<left>15</left>
+				<top>87</top>
 				<width>870</width>
 				<height>552</height>
 				<onleft>-</onleft>
@@ -48,7 +48,7 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>
@@ -64,7 +64,7 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>810</width>
 						<info>ListItem.Label</info>
 					</control>

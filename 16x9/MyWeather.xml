@@ -9,12 +9,12 @@
 		<include>GlobalBackground</include>
 
 		<control type="group">
-			<posx>420</posx>
-			<posy>120</posy>
+			<left>420</left>
+			<top>120</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>600</width>
 				<height>450</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 			<control type="label">
 				<description>Day 0 Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>540</width>
 				<label>$INFO[Window(Weather).Property(Day0.Title)]</label>
 				<font>Large</font>
@@ -32,8 +32,8 @@
 
 			<control type="image">
 				<description>Day 0 Icon</description>
-				<posx>153</posx>
-				<posy>69</posy>
+				<left>153</left>
+				<top>69</top>
 				<height>234</height>
 				<width>234</width>
 				<texture>$INFO[Window(Weather).Property(Day0.OutlookIcon)]</texture>
@@ -41,8 +41,8 @@
 
 			<control type="label">
 				<description>Day 0 Temp</description>
-				<posx>0</posx>
-				<posy>302</posy>
+				<left>0</left>
+				<top>302</top>
 				<width>540</width>
 				<label>[COLOR=Red]$INFO[Window(Weather).Property(Day0.LowTemp)]$INFO[System.TemperatureUnits][/COLOR] / [COLOR=Blue]$INFO[Window(Weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits][/COLOR]</label>
 				<font>Large</font>
@@ -52,12 +52,12 @@
 		</control>
 
 		<control type="group">
-			<posx>1050</posx>
-			<posy>120</posy>
+			<left>1050</left>
+			<top>120</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>600</width>
 				<height>450</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -65,8 +65,8 @@
 
 			<control type="label">
 				<description>Day 1 Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>540</width>
 				<label>$INFO[Window(Weather).Property(Day1.Title)]</label>
 				<font>Large</font>
@@ -75,8 +75,8 @@
 
 			<control type="image">
 				<description>Day 1 Icon</description>
-				<posx>153</posx>
-				<posy>69</posy>
+				<left>153</left>
+				<top>69</top>
 				<height>234</height>
 				<width>234</width>
 				<texture>$INFO[Window(Weather).Property(Day1.OutlookIcon)]</texture>
@@ -84,8 +84,8 @@
 
 			<control type="label">
 				<description>Day 1 Temp</description>
-				<posx>0</posx>
-				<posy>302</posy>
+				<left>0</left>
+				<top>302</top>
 				<width>540</width>
 				<label>[COLOR=Red]$INFO[Window(Weather).Property(Day1.LowTemp)]$INFO[System.TemperatureUnits][/COLOR] / [COLOR=Blue]$INFO[Window(Weather).Property(Day1.HighTemp)]$INFO[System.TemperatureUnits][/COLOR]</label>
 				<font>Large</font>
@@ -95,12 +95,12 @@
 		</control>
 
 		<control type="group">
-			<posx>420</posx>
-			<posy>585</posy>
+			<left>420</left>
+			<top>585</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>600</width>
 				<height>450</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -108,8 +108,8 @@
 
 			<control type="label">
 				<description>Day 2 Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>540</width>
 				<label>$INFO[Window(Weather).Property(Day2.Title)]</label>
 				<font>Large</font>
@@ -118,8 +118,8 @@
 
 			<control type="image">
 				<description>Day 2 Icon</description>
-				<posx>153</posx>
-				<posy>69</posy>
+				<left>153</left>
+				<top>69</top>
 				<height>234</height>
 				<width>234</width>
 				<texture>$INFO[Window(Weather).Property(Day2.OutlookIcon)]</texture>
@@ -127,8 +127,8 @@
 
 			<control type="label">
 				<description>Day 2 Temp</description>
-				<posx>0</posx>
-				<posy>302</posy>
+				<left>0</left>
+				<top>302</top>
 				<width>540</width>
 				<label>[COLOR=Red]$INFO[Window(Weather).Property(Day2.LowTemp)]$INFO[System.TemperatureUnits][/COLOR] / [COLOR=Blue]$INFO[Window(Weather).Property(Day2.HighTemp)]$INFO[System.TemperatureUnits][/COLOR]</label>
 				<font>Large</font>
@@ -138,12 +138,12 @@
 		</control>
 
 		<control type="group">
-			<posx>1050</posx>
-			<posy>585</posy>
+			<left>1050</left>
+			<top>585</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>600</width>
 				<height>450</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -151,8 +151,8 @@
 
 			<control type="label">
 				<description>Day 3 Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>540</width>
 				<label>$INFO[Window(Weather).Property(Day3.Title)]</label>
 				<font>Large</font>
@@ -161,8 +161,8 @@
 
 			<control type="image" id="35">
 				<description>Day 3 Icon</description>
-				<posx>153</posx>
-				<posy>69</posy>
+				<left>153</left>
+				<top>69</top>
 				<height>234</height>
 				<width>234</width>
 				<texture>$INFO[Window(Weather).Property(Day3.OutlookIcon)]</texture>
@@ -170,8 +170,8 @@
 
 			<control type="label">
 				<description>Day 3 Temp</description>
-				<posx>0</posx>
-				<posy>302</posy>
+				<left>0</left>
+				<top>302</top>
 				<width>540</width>
 				<label>[COLOR=Red]$INFO[Window(Weather).Property(Day3.LowTemp)]$INFO[System.TemperatureUnits][/COLOR] / [COLOR=Blue]$INFO[Window(Weather).Property(Day3.HighTemp)]$INFO[System.TemperatureUnits][/COLOR]</label>
 				<font>Large</font>
@@ -181,8 +181,8 @@
 		</control>
 
 		<control type="grouplist" id="9000">
-			<posx>15</posx>
-			<posy>210</posy>
+			<left>15</left>
+			<top>210</top>
 			<width>330</width>
 			<height>900</height>
 			<itemgap>3</itemgap>
@@ -217,8 +217,8 @@
 
 		<control type="label">
 			<description>Location Label</description>
-			<posx>30</posx>
-			<posy>348</posy>
+			<left>30</left>
+			<top>348</top>
 			<width>180</width>
 			<label>$INFO[Control.GetLabel(3)]</label>
 		</control>

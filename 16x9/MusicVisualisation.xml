@@ -16,8 +16,8 @@
 
 			<control type="image">
 				<description>Music cover image</description>
-				<posx>45</posx>
-				<posy>45</posy>
+				<left>45</left>
+				<top>45</top>
 				<width>360</width>
 				<height>360</height>
 				<fadetime>200</fadetime>
@@ -28,8 +28,8 @@
 			</control>
 
 			<control type="label">
-				<posx>45</posx>
-				<posy>915</posy>
+				<left>45</left>
+				<top>915</top>
 				<width>1320</width>
 				<label>$INFO[MusicPlayer.Album]$INFO[MusicPlayer.Artist, - ]</label>
 				<align>left</align>
@@ -38,8 +38,8 @@
 			</control>
 
 			<control type="label">
-				<posx>45</posx>
-				<posy>966</posy>
+				<left>45</left>
+				<top>966</top>
 				<width>1320</width>
 				<label>$INFO[MusicPlayer.Title]</label>
 				<scroll>true</scroll>
@@ -50,8 +50,8 @@
 
 			<control type="label">
 				<description>Track Count</description>
-				<posx>1875</posx>
-				<posy>915</posy>
+				<left>1875</left>
+				<top>915</top>
 				<width>450</width>
 				<label>$INFO[MusicPlayer.PlaylistPosition,[COLOR=blue]$LOCALIZE[554]:[/COLOR] ]$INFO[MusicPlayer.PlaylistLength, / ]</label>
 				<align>right</align>
@@ -63,8 +63,8 @@
 
 			<control type="label">
 				<description>Player Times</description>
-				<posx>1875</posx>
-				<posy>966</posy>
+				<left>1875</left>
+				<top>966</top>
 				<width>750</width>
 				<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, / ]</label>
 				<align>right</align>
@@ -74,8 +74,8 @@
 
 			<control type="progress">
 				<description>Progressbar</description>
-				<posx>45</posx>
-				<posy>45r</posy>
+				<left>45</left>
+				<top>45r</top>
 				<width>1830</width>
 				<height>21</height>
 				<info>Player.Progress</info>

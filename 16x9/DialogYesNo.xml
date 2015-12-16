@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>510</posx>
-			<posy>360</posy>
+			<left>510</left>
+			<top>360</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>960</width>
 				<height>444</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,7 +22,7 @@
 
 			<control type="label" id="1">
 				<description>Heading</description>
-				<posx>15</posx>
+				<left>15</left>
 				<label>-</label>
 				<width>885</width>
 				<font>Medium</font>
@@ -32,8 +32,8 @@
 
 			<control type="label" id="2">
 				<description>Line 1</description>
-				<posx>15</posx>
-				<posy>108</posy>
+				<left>15</left>
+				<top>108</top>
 				<label>-</label>
 				<width>885</width>
 				<scroll>true</scroll>
@@ -41,8 +41,8 @@
 
 			<control type="label" id="3">
 				<description>Line 2</description>
-				<posx>15</posx>
-				<posy>156</posy>
+				<left>15</left>
+				<top>156</top>
 				<label>-</label>
 				<width>885</width>
 				<scroll>true</scroll>
@@ -50,8 +50,8 @@
 
 			<control type="label" id="4">
 				<description>Line 3</description>
-				<posx>15</posx>
-				<posy>204</posy>
+				<left>15</left>
+				<top>204</top>
 				<label>-</label>
 				<width>885</width>
 				<scroll>true</scroll>
@@ -59,8 +59,8 @@
 
 			<control type="button" id="10">
 				<description>No</description>
-				<posx>150</posx>
-				<posy>285</posy>
+				<left>150</left>
+				<top>285</top>
 				<width>270</width>
 				<label>106</label>
 				<onleft>11</onleft>
@@ -71,8 +71,8 @@
 
 			<control type="button" id="11">
 				<description>Yes</description>
-				<posx>480</posx>
-				<posy>285</posy>
+				<left>480</left>
+				<top>285</top>
 				<width>270</width>
 				<label>107</label>
 				<onleft>10</onleft>

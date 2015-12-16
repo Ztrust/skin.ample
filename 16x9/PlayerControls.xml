@@ -10,20 +10,20 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>1260</posx>
-			<posy>240</posy>
+			<left>1260</left>
+			<top>240</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>720</width>
 				<height>684</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
 			<control type="grouplist" id="1">
-				<posx>15</posx>
-				<posy>60</posy>
+				<left>15</left>
+				<top>60</top>
 				<width>621</width>
 				<height>225</height>
 				<itemgap>3</itemgap>
@@ -122,8 +122,8 @@
 			</control>
 
 			<control type="group">
-				<posx>558</posx>
-				<posy>60</posy>
+				<left>558</left>
+				<top>60</top>
 
 				<control type="image" id="408">
 					<width>75</width>
@@ -176,8 +176,8 @@
 			</control>
 
 			<control type="group">
-				<posx>15</posx>
-				<posy>165</posy>
+				<left>15</left>
+				<top>165</top>
 
 				<control type="group">
 					<visible>Player.HasVideo</visible>
@@ -206,16 +206,16 @@
 
 					<control type="videowindow">
 						<description>video</description>
-						<posx>9</posx>
-						<posy>9</posy>
+						<left>9</left>
+						<top>9</top>
 						<width>603</width>
 						<height>330</height>
 					</control>
 
 					<control type="label">
 						<description>Now Playing Info</description>
-						<posx>0</posx>
-						<posy>369</posy>
+						<left>0</left>
+						<top>369</top>
 						<width>621</width>
 						<label>$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Title]</label>
 						<scroll>true</scroll>
@@ -227,7 +227,7 @@
 					<visible>Player.HasAudio</visible>
 
 					<control type="image">
-						<posx>81</posx>
+						<left>81</left>
 						<width>458</width>
 						<height>347</height>
 						<texture border="2">other_textures/black-back.png</texture>
@@ -236,7 +236,7 @@
 					</control>
 
 					<control type="button" id="2">
-						<posx>81</posx>
+						<left>81</left>
 						<width>458</width>
 						<height>347</height>
 						<texture border="2">other_textures/black-back.png</texture>
@@ -252,16 +252,16 @@
 
 					<control type="visualisation">
 						<description>visualisation</description>
-						<posx>90</posx>
-						<posy>9</posy>
+						<left>90</left>
+						<top>9</top>
 						<width>438</width>
 						<height>329</height>
 					</control>
 
 					<control type="label">
 						<description>Now Playing Info</description>
-						<posx>0</posx>
-						<posy>369</posy>
+						<left>0</left>
+						<top>369</top>
 						<width>621</width>
 						<label>$INFO[MusicPlayer.Title]$INFO[MusicPlayer.Artist, - ,]</label>
 						<scroll>true</scroll>

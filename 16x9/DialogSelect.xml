@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>450</posx>
-			<posy>120</posy>
+			<left>450</left>
+			<top>120</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>1080</width>
 				<height>900</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 			<control type="label" id="1">
 				<description>header label</description>
-				<posx>15</posx>
-				<posy>15</posy>
+				<left>15</left>
+				<top>15</top>
 				<width>990</width>
 				<align>center</align>
 				<font>Medium</font>
@@ -31,8 +31,8 @@
 			</control>
 
 			<control type="list" id="3">
-				<posx>15</posx>
-				<posy>120</posy>
+				<left>15</left>
+				<top>120</top>
 				<width>660</width>
 				<height>690</height>
 				<onleft>5</onleft>
@@ -49,13 +49,13 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>600</width>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -73,13 +73,13 @@
 					</control>
 
 					<control type="label">
-						<posx>30</posx>
+						<left>30</left>
 						<width>600</width>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -90,8 +90,8 @@
 			</control>
 
 			<control type="list" id="6">
-				<posx>15</posx>
-				<posy>120</posy>
+				<left>15</left>
+				<top>120</top>
 				<width>660</width>
 				<height>690</height>
 				<onleft>5</onleft>
@@ -108,22 +108,22 @@
 					</control>
 
 					<control type="image">
-						<posx>12</posx>
-						<posy>12</posy>
+						<left>12</left>
+						<top>12</top>
 						<width>111</width>
 						<height>111</height>
 						<texture fallback="DefaultAddonNone.png">$INFO[Listitem.Icon]</texture>
 					</control>
 
 					<control type="label">
-						<posx>150</posx>
+						<left>150</left>
 						<width>600</width>
 						<height>135</height>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<height>135</height>
 						<align>right</align>
@@ -142,22 +142,22 @@
 					</control>
 
 					<control type="image">
-						<posx>12</posx>
-						<posy>12</posy>
+						<left>12</left>
+						<top>12</top>
 						<width>111</width>
 						<height>111</height>
 						<texture fallback="DefaultAddonNone.png">$INFO[Listitem.Icon]</texture>
 					</control>
 
 					<control type="label">
-						<posx>150</posx>
+						<left>150</left>
 						<width>600</width>
 						<height>135</height>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<height>135</height>
 						<align>right</align>
@@ -170,8 +170,8 @@
 
 			<control type="label" id="2">
 				<description>Number Of Files</description>
-				<posx>705</posx>
-				<posy>120</posy>
+				<left>705</left>
+				<top>120</top>
 				<width>300</width>
 				<align>center</align>
 				<label>-</label>
@@ -179,8 +179,8 @@
 
 			<control type="button" id="5">
 				<description>Manual</description>
-				<posx>705</posx>
-				<posy>189</posy>
+				<left>705</left>
+				<top>189</top>
 				<width>300</width>
 				<label>368</label>
 				<onleft>3</onleft>
@@ -191,8 +191,8 @@
 
 			<control type="image">
 				<description>Large Icon Image</description>
-				<posx>705</posx>
-				<posy>357</posy>
+				<left>705</left>
+				<top>357</top>
 				<width>300</width>
 				<height>450</height>
 				<texture fallback="DefaultAddonNone.png">$INFO[Container(6).ListItem.Icon]</texture>

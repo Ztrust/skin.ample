@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>450</posx>
-			<posy>120</posy>
+			<left>450</left>
+			<top>120</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>1080</width>
 				<height>900</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 			<control type="label" id="411">
 				<description>Heading</description>
-				<posx>15</posx>
-				<posy>15</posy>
+				<left>15</left>
+				<top>15</top>
 				<width>990</width>
 				<align>center</align>
 				<font>Medium</font>
@@ -32,15 +32,15 @@
 
 			<control type="label" id="412">
 				<description>Path</description>
-				<posx>15</posx>
-				<posy>57</posy>
+				<left>15</left>
+				<top>57</top>
 				<width>750</width>
 				<haspath>true</haspath>
 			</control>
 
 			<control type="list" id="450">
-				<posx>15</posx>
-				<posy>120</posy>
+				<left>15</left>
+				<top>120</top>
 				<width>660</width>
 				<height>690</height>
 				<onup>450</onup>
@@ -57,22 +57,22 @@
 					</control>
 
 					<control type="image">
-						<posx>12</posx>
-						<posy>12</posy>
+						<left>12</left>
+						<top>12</top>
 						<width>113</width>
 						<height>113</height>
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
 
 					<control type="label">
-						<posx>150</posx>
+						<left>150</left>
 						<width>600</width>
 						<height>135</height>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<height>135</height>
 						<align>right</align>
@@ -91,22 +91,22 @@
 					</control>
 
 					<control type="image">
-						<posx>12</posx>
-						<posy>12</posy>
+						<left>12</left>
+						<top>12</top>
 						<width>113</width>
 						<height>113</height>
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
 
 					<control type="label">
-						<posx>150</posx>
+						<left>150</left>
 						<width>600</width>
 						<height>135</height>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<height>135</height>
 						<align>right</align>
@@ -118,8 +118,8 @@
 			</control>
 
 			<control type="grouplist" id="9000">
-				<posx>705</posx>
-				<posy>120</posy>
+				<left>705</left>
+				<top>120</top>
 				<itemgap>3</itemgap>
 				<orientation>vertical</orientation>
 				<onright>450</onright>
@@ -154,8 +154,8 @@
 
 			<control type="image">
 				<description>Large Icon Image</description>
-				<posx>705</posx>
-				<posy>447</posy>
+				<left>705</left>
+				<top>447</top>
 				<width>300</width>
 				<height>360</height>
 				<texture>$INFO[Container(450).ListItem.Icon]</texture>
@@ -167,8 +167,8 @@
 
 			<control type="image">
 				<description>Large Icon Image</description>
-				<posx>705</posx>
-				<posy>447</posy>
+				<left>705</left>
+				<top>447</top>
 				<width>300</width>
 				<height>360</height>
 				<texture flipx="true">$INFO[Container(450).ListItem.Icon]</texture>

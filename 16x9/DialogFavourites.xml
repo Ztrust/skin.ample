@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>450</posx>
-			<posy>135</posy>
+			<left>450</left>
+			<top>135</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>1080</width>
 				<height>870</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,7 +22,7 @@
 
 			<control type="label" id="1">
 				<description>header label</description>
-				<posx>15</posx>
+				<left>15</left>
 				<width>990</width>
 				<align>center</align>
 				<font>Medium</font>
@@ -30,8 +30,8 @@
 			</control>
 
 			<control type="list" id="450">
-				<posx>15</posx>
-				<posy>90</posy>
+				<left>15</left>
+				<top>90</top>
 				<width>660</width>
 				<height>690</height>
 				<onleft>450</onleft>
@@ -48,22 +48,22 @@
 					</control>
 
 					<control type="image">
-						<posx>12</posx>
-						<posy>12</posy>
+						<left>12</left>
+						<top>12</top>
 						<width>111</width>
 						<height>111</height>
 						<texture fallback="DefaultAddonNone.png">$INFO[Listitem.Icon]</texture>
 					</control>
 
 					<control type="label">
-						<posx>150</posx>
+						<left>150</left>
 						<width>600</width>
 						<height>135</height>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<height>135</height>
 						<align>right</align>
@@ -81,22 +81,22 @@
 					</control>
 
 					<control type="image">
-						<posx>12</posx>
-						<posy>12</posy>
+						<left>12</left>
+						<top>12</top>
 						<width>111</width>
 						<height>111</height>
 						<texture fallback="DefaultAddonNone.png">$INFO[Listitem.Icon]</texture>
 					</control>
 
 					<control type="label">
-						<posx>150</posx>
+						<left>150</left>
 						<width>600</width>
 						<height>135</height>
 						<info>ListItem.Label</info>
 					</control>
 
 					<control type="label">
-						<posx>630</posx>
+						<left>630</left>
 						<width>600</width>
 						<height>135</height>
 						<align>right</align>
@@ -109,8 +109,8 @@
 
 			<control type="image">
 				<description>Large Icon Image</description>
-				<posx>705</posx>
-				<posy>327</posy>
+				<left>705</left>
+				<top>327</top>
 				<width>300</width>
 				<height>450</height>
 				<texture fallback="DefaultAddonNone.png">$INFO[Container(450).ListItem.Icon]</texture>

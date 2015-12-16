@@ -7,12 +7,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>623</posx>
-			<posy>338</posy>
+			<left>623</left>
+			<top>338</top>
 
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>675</width>
 				<height>225</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -20,8 +20,8 @@
 
 			<control type="label" id="1">
 				<description>header label</description>
-				<posx>30</posx>
-				<posy>15</posy>
+				<left>30</left>
+				<top>15</top>
 				<width>615</width>
 				<font>Medium</font>
 				<label>31031</label>
@@ -30,16 +30,16 @@
 
 			<control type="label" id="401">
 				<description>Song Number Label</description>
-				<posx>30</posx>
-				<posy>68</posy>
+				<left>30</left>
+				<top>68</top>
 				<width>615</width>
 				<align>center</align>
 			</control>
 
 			<control type="label" id="402">
 				<description>Song Name Label</description>
-				<posx>30</posx>
-				<posy>128</posy>
+				<left>30</left>
+				<top>128</top>
 				<width>615</width>
 				<font>Medium</font>
 				<align>center</align>

@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>300</posx>
-			<posy>120</posy>
+			<left>300</left>
+			<top>120</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>1380</width>
 				<height>900</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,7 +22,7 @@
 
 			<control type="label">
 				<description>Header Label</description>
-				<posx>15</posx>
+				<left>15</left>
 				<align>center</align>
 				<font>Medium</font>
 				<width>1290</width>
@@ -31,8 +31,8 @@
 
 			<control type="image" id="3">
 				<description>Cover Image</description>
-				<posx>15</posx>
-				<posy>60</posy>
+				<left>15</left>
+				<top>60</top>
 				<width>383</width>
 				<height>383</height>
 				<texture>$INFO[ListItem.Icon]</texture>
@@ -43,8 +43,8 @@
 
 			<control type="label">
 				<description>Title</description>
-				<posx>435</posx>
-				<posy>60</posy>
+				<left>435</left>
+				<top>60</top>
 				<width>870</width>
 				<font>Large</font>
 				<label>$INFO[ListItem.Title]</label>
@@ -52,8 +52,8 @@
 			</control>
 
 			<control type="grouplist">
-				<posx>435</posx>
-				<posy>126</posy>
+				<left>435</left>
+				<top>126</top>
 				<width>870</width>
 				<height>168</height>
 				<itemgap>0</itemgap>
@@ -98,8 +98,8 @@
 			</control>
 
 			<control type="grouplist">
-				<posx>435</posx>
-				<posy>285</posy>
+				<left>435</left>
+				<top>285</top>
 				<itemgap>15</itemgap>
 				<orientation>horizontal</orientation>	
 
@@ -122,8 +122,8 @@
 
 			<control type="textbox" id="4">
 				<description>Review</description>
-				<posx>435</posx>
-				<posy>402</posy>
+				<left>435</left>
+				<top>402</top>
 				<width>870</width>
 				<height>395</height>
 				<align>justify</align>
@@ -131,8 +131,8 @@
 			</control>
 
 			<control type="image">
-				<posx>15</posx>
-				<posy>480</posy>
+				<left>15</left>
+				<top>480</top>
 				<width>383</width>
 				<height>66</height>				
 				<texture border="5">other_textures/ButtonFo.png</texture>
@@ -140,8 +140,8 @@
 			</control>
 
 			<control type="image">
-				<posx>15</posx>
-				<posy>480</posy>
+				<left>15</left>
+				<top>480</top>
 				<width>383</width>
 				<height>66</height>				
 				<texture border="2">other_textures/ButtonNF.png</texture>
@@ -149,16 +149,16 @@
 			</control>
 
 			<control type="label">
-				<posx>45</posx>
-				<posy>480</posy>
+				<left>45</left>
+				<top>480</top>
 				<width>353</width>
 				<label>33067</label>
 			</control>
 
 			<control type="button" id="14">
 				<description>Decrease Rating</description>
-				<posx>270</posx>
-				<posy>498</posy>
+				<left>270</left>
+				<top>498</top>
 				<width>50</width>
 				<height>33</height>
 				<onclick>DecreaseRating</onclick>
@@ -172,8 +172,8 @@
 
 			<control type="button" id="15">
 				<description>Increase Rating</description>
-				<posx>320</posx>
-				<posy>498</posy>
+				<left>320</left>
+				<top>498</top>
 				<width>50</width>
 				<height>33</height>
 				<onclick>IncreaseRating</onclick>
@@ -186,8 +186,8 @@
 			</control>
 
 			<control type="grouplist" id="9000">
-				<posx>15</posx>
-				<posy>548</posy>
+				<left>15</left>
+				<top>548</top>
 				<onleft>-</onleft>
 				<onright>-</onright>
 				<onup>15</onup>

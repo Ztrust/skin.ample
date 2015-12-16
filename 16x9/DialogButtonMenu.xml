@@ -9,20 +9,20 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>660</posx>
-			<posy>210</posy>
+			<left>660</left>
+			<top>210</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>660</width>
 				<height>744</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
 			<control type="grouplist" id="3110">
-				<posx>15</posx>
-				<posy>60</posy>
+				<left>15</left>
+				<top>60</top>
 				<width>570</width>
 				<height>573</height>
 				<itemgap>3</itemgap>

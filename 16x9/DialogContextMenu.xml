@@ -11,8 +11,8 @@
 	<controls>
 
 		<control type="image">
-			<posx>-660</posx>
-			<posy>-120</posy>
+			<left>-660</left>
+			<top>-120</top>
 			<width>1920</width>
 			<height>1080</height>
 			<texture border="2">other_textures/black-back.png</texture>
@@ -20,8 +20,8 @@
 
 		<control type="image" id="999">
 			<description>background image</description>
-			<posx>0</posx>
-			<posy>-81</posy>
+			<left>0</left>
+			<top>-81</top>
 			<width>600</width>
 			<height>1086</height>
 			<texture border="22">other_textures/DialogContextBack.png</texture>
@@ -29,8 +29,8 @@
 
 		<control type="grouplist" id="996">
 			<description>grouplist for context buttons</description>
-			<posx>45</posx>
-			<posy>0</posy>
+			<left>45</left>
+			<top>0</top>
 			<width>510</width>
 			<height max="909">auto</height>
 			<itemgap>3</itemgap>

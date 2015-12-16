@@ -8,12 +8,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>240</posx>
-			<posy>83</posy>
+			<left>240</left>
+			<top>83</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>1500</width>
 				<height>975</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -21,24 +21,24 @@
 
 			<control type="label" id="1">
 				<description>header label</description>
-				<posx>15</posx>
-				<posy>48</posy>
+				<left>15</left>
+				<top>48</top>
 				<width>1410</width>
 				<height>45</height>
 			</control>
 
 			<control type="textbox" id="5">
 				<description>textarea</description>
-				<posx>15</posx>
-				<posy>108</posy>
+				<left>15</left>
+				<top>108</top>
 				<width>1383</width>
 				<height>780</height>
 				<align>justify</align>
 			</control>
 
 			<control type="scrollbar" id="61">
-				<posx>1410</posx>
-				<posy>108</posy>
+				<left>1410</left>
+				<top>108</top>
 				<width>38</width>
 				<height>780</height>
 				<onleft>Close</onleft>

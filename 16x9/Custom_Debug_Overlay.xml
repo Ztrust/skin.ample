@@ -16,8 +16,8 @@
 		<!-- Window/Dialog debug -->
 
 		<control type="grouplist">
-			<posx>15</posx>
-			<posy>15</posy>
+			<left>15</left>
+			<top>15</top>
 			<width>780</width>
 			<height>450</height>
 			<itemgap>12</itemgap>

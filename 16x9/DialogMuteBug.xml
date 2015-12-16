@@ -7,13 +7,13 @@
 	<controls>
 
 		<control type="group">
-			<posx>1833</posx>
-			<posy>0</posy>
+			<left>1833</left>
+			<top>0</top>
 
 			<control type="image" id="901">
 				<description>Mute Image</description>
-				<posx>0</posx>
-				<posy>30</posy>
+				<left>0</left>
+				<top>30</top>
 				<width>72</width>
 				<height>72</height>
 				<texture>other_textures/icon-mute.png</texture>

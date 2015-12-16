@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>510</posx>
-			<posy>210</posy>
+			<left>510</left>
+			<top>210</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>960</width>
 				<height>744</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,7 +22,7 @@
 
 			<control type="label">
 				<description>Header Label</description>
-				<posx>15</posx>
+				<left>15</left>
 				<width>840</width>
 				<label>20043</label>
 				<font>Medium</font>
@@ -32,8 +32,8 @@
 
 			<control type="grouplist" id="5">
 				<description>Control Area</description>
-				<posx>15</posx>
-				<posy>132</posy>
+				<left>15</left>
+				<top>132</top>
 				<height>411</height>
 				<width>870</width>
 				<itemgap>3</itemgap>
@@ -70,8 +70,8 @@
 
 			<control type="button" id="28">
 				<description>Ok</description>
-				<posx>135</posx>
-				<posy>588</posy>
+				<left>135</left>
+				<top>588</top>
 				<width>240</width>
 				<label>186</label>
 				<onleft>5</onleft>
@@ -82,8 +82,8 @@
 
 			<control type="button" id="29">
 				<description>Cancel</description>
-				<posx>525</posx>
-				<posy>588</posy>
+				<left>525</left>
+				<top>588</top>
 				<width>240</width>
 				<label>222</label>
 				<onleft>28</onleft>

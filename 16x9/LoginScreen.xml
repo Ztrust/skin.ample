@@ -10,8 +10,8 @@
 
 		<control type="wraplist" id="52">
 			<description>Login Wraplist</description>
-			<posx>420</posx>
-			<posy>342</posy>
+			<left>420</left>
+			<top>342</top>
 			<width>1080</width>
 			<height>396</height>
 			<visible>-</visible>
@@ -25,7 +25,7 @@
 			<itemlayout height="75">
 
 				<control type="label">
-					<posx>540</posx>
+					<left>540</left>
 					<width>1080</width>
 					<font>Large</font>
 					<info>ListItem.Label</info>
@@ -37,7 +37,7 @@
 			<focusedlayout height="96">
 
 				<control type="label">
-					<posx>540</posx>
+					<left>540</left>
 					<width>1080</width>
 					<info>ListItem.Label</info>
 					<font>Home</font>

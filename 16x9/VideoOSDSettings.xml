@@ -7,14 +7,14 @@
 	<controls>
 
 		<control type="group">
-			<posx>510</posx>
-			<posy>240</posy>
+			<left>510</left>
+			<top>240</top>
 			<animation effect="fade" start="100" end="0" time="400" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(FileBrowser)">Conditional</animation>
 
 			<control type="label" id="2">
 				<description>Settings</description>
-				<posx>15</posx>
-				<posy>48</posy>
+				<left>15</left>
+				<top>48</top>
 				<width>870</width>
 				<font>Medium</font>
 				<shadowcolor>black</shadowcolor>
@@ -23,8 +23,8 @@
 
 			<control type="grouplist" id="5">
 				<description>Control Area</description>
-				<posx>15</posx>
-				<posy>120</posy>
+				<left>15</left>
+				<top>120</top>
 				<width>870</width>
 				<height>552</height>
 				<itemgap>3</itemgap>

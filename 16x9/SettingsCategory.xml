@@ -10,8 +10,8 @@
 
 		<control type="grouplist" id="3">
 			<description>Button Area</description>
-			<posx>15</posx>
-			<posy>210</posy>
+			<left>15</left>
+			<top>210</top>
 			<width>450</width>
 			<height>720</height>
 			<itemgap>3</itemgap>
@@ -24,8 +24,8 @@
 
 		<control type="grouplist" id="5">
 			<description>Control Area</description>
-			<posx>510</posx>
-			<posy>210</posy>
+			<left>510</left>
+			<top>210</top>
 			<width>1230</width>
 			<height>720</height>
 			<itemgap>3</itemgap>

@@ -9,12 +9,12 @@
 		<include>GlobalOverlay</include>
 
 		<control type="group">
-			<posx>630</posx>
-			<posy>210</posy>
+			<left>630</left>
+			<top>210</top>
 
 			<control type="image">
-				<posx>-30</posx>
-				<posy>-30</posy>
+				<left>-30</left>
+				<top>-30</top>
 				<width>720</width>
 				<height>744</height>
 				<texture border="22">other_textures/ContentPanel.png</texture>
@@ -22,8 +22,8 @@
 
 			<control type="label" id="1000">
 				<description>Profile Name</description>
-				<posx>15</posx>
-				<posy>48</posy>
+				<left>15</left>
+				<top>48</top>
 				<width>450</width>
 				<font>Medium</font>
 				<shadowcolor>black</shadowcolor>
@@ -31,15 +31,15 @@
 
 			<control type="label" id="1001">
 				<description>Profile Directory</description>
-				<posx>15</posx>
-				<posy>96</posy>
+				<left>15</left>
+				<top>96</top>
 				<width>450</width>
 			</control>
 
 			<control type="image" id="2">
 				<description>profile image</description>
-				<posx>480</posx>
-				<posy>15</posy>
+				<left>480</left>
+				<top>15</top>
 				<width>165</width>
 				<height>165</height>
 				<bordertexture border="5">other_textures/ButtonFO.png</bordertexture>
@@ -50,8 +50,8 @@
 
 			<control type="grouplist" id="5">
 				<description>Control Area</description>
-				<posx>15</posx>
-				<posy>222</posy>
+				<left>15</left>
+				<top>222</top>
 				<width>630</width>
 				<height>353</height>
 				<itemgap>3</itemgap>
@@ -76,8 +76,8 @@
 
 			<control type="button" id="28">
 				<description>Ok</description>
-				<posx>15</posx>
-				<posy>588</posy>
+				<left>15</left>
+				<top>588</top>
 				<width>240</width>
 				<label>186</label>
 				<onleft>5</onleft>
@@ -88,8 +88,8 @@
 
 			<control type="button" id="29">
 				<description>Cancel</description>
-				<posx>405</posx>
-				<posy>588</posy>
+				<left>405</left>
+				<top>588</top>
 				<width>240</width>
 				<label>222</label>
 				<onleft>28</onleft>

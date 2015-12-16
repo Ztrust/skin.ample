@@ -7,8 +7,8 @@
 	<include file="View_50_List.xml" />
 
 	<include name="HiddenButton">
-		<posx>-20</posx>
-		<posy>-20</posy>
+		<left>-20</left>
+		<top>-20</top>
 		<width>1</width>
 		<height>1</height>
 		<label>-</label>
@@ -17,8 +17,8 @@
 	</include>
 
 	<include name="Dimensions_Fullscreen">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1920</width>
 		<height>1080</height>
 	</include>
@@ -40,8 +40,8 @@
 	</include>
 
 	<include name="PathID">
-		<posx>15r</posx>
-		<posy>15</posy>
+		<left>15r</left>
+		<top>15</top>
 		<width>780</width>
 		<height>21</height>
 		<textcolor>Blue</textcolor>
@@ -50,8 +50,8 @@
 	</include>
 
 	<include name="ControlID">
-		<posx>15r</posx>
-		<posy>48</posy>
+		<left>15r</left>
+		<top>48</top>
 		<width>780</width>
 		<height>21</height>
 		<textcolor>Red</textcolor>
