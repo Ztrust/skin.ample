@@ -2,7 +2,7 @@
 <!-- Foundation -->
 <window id="2901">
 	<defaultcontrol always="true">14</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+
 
 	<controls>
 

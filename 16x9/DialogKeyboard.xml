@@ -2,7 +2,7 @@
 <!-- Foundation -->
 <window id="103">
 	<defaultcontrol always="true">300</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+
 
 	<coordinates>
 		<origin x="420" y="270" />

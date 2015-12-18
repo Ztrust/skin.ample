@@ -2,7 +2,7 @@
 <!-- Foundation -->
 <window id="112">
 	<defaultcontrol always="true">401</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+
 
 	<controls>
 

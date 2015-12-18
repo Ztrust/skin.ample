@@ -2,7 +2,7 @@
 <!-- Foundation -->
 <window type="buttonMenu" id="111">
 	<defaultcontrol always="true">3110</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+
 
 	<controls>
 
