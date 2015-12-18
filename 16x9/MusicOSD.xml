@@ -132,31 +132,6 @@
 					<visible>!IsEmpty(Skin.String(LyricPath))</visible>
 				</control>
 
-				<control type="button" id="10">
-					<description>LastFM</description>
-					<width>75</width>
-					<height>75</height>
-					<label>$LOCALIZE[15200] $LOCALIZE[33080]</label>
-					<align>left</align>
-					<font>-</font>
-					<texturefocus>other_textures/OSD/LastFMHateFO.png</texturefocus>
-					<texturenofocus>other_textures/OSD/LastFMHateNF.png</texturenofocus>
-					<onclick>PlayerControl(Stop)</onclick>
-					<onclick>XBMC.LastFM.Ban</onclick>
-					<visible>!LastFM.RadioPlaying</visible>
-				</control>
-
-				<control type="button" id="11">
-					<description>LastFM</description>
-					<width>75</width>
-					<height>75</height>
-					<label>$LOCALIZE[15200] $LOCALIZE[33079]</label>
-					<font>-</font>
-					<texturefocus>other_textures/OSD/LastFMLoveFO.png</texturefocus>
-					<texturenofocus>other_textures/OSD/LastFMLoveNF.png</texturenofocus>
-					<onclick>XBMC.LastFM.Love</onclick>
-					<visible>!LastFM.RadioPlaying</visible>
-				</control>
 
 				<control type="button" id="12">
 					<description>Playlist</description>
