@@ -79,7 +79,7 @@
 		<aligny>center</aligny>
 		<pulseonselect>false</pulseonselect>
 	</default>
-
+         <!-- For radio buttons http://forum.kodi.tv/showthread.php?tid=158812&pid=1526793#pid1526793-->
 	<default type="radiobutton">
 		<left>0</left>
 		<top>0</top>

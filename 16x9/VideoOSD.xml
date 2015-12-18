@@ -204,22 +204,11 @@
 						<texturefocus>other_textures/OSD/SubtitlesFO.png</texturefocus>
 						<texturenofocus>other_textures/OSD/SubtitlesNF.png</texturenofocus>
 						<onclick>Close</onclick>
-						<onclick>XBMC.RunScript(script.xbmc.subtitles)</onclick>
-						<visible>IsEmpty(Skin.String(SubtitlesPath))</visible>
+						<onclick>ActivateWindow(SubtitleSearch)</onclick>
+						<!--<visible>IsEmpty(Skin.String(SubtitlesPath))</visible>-->
 					</control>
 
-					<control type="button" id="5">
-						<description>Subtitles</description>
-						<width>75</width>
-						<height>75</height>
-						<label>287</label>
-						<font>-</font>
-						<texturefocus>other_textures/OSD/SubtitlesFO.png</texturefocus>
-						<texturenofocus>other_textures/OSD/SubtitlesNF.png</texturenofocus>
-						<onclick>Close</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(SubtitlesPath)])</onclick>
-						<visible>!IsEmpty(Skin.String(SubtitlesPath))</visible>
-					</control>
+
 
 					<control type="button" id="6">
 						<description>DVD menu</description>

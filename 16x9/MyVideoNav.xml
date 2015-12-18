@@ -15,7 +15,7 @@
 		<include>GlobalBackground</include>
 
 		<include>View_50_List</include>
-
+<!--- 'Now Playing...' can be coded as a custom button with these actions: ActivateWindow(videoplaylist) and ActivateWindow(musicplaylist)-->
 		<control type="grouplist" id="9000">
 			<left>15</left>
 			<top>210</top>
@@ -117,6 +117,15 @@
 				<onclick>SendClick(videolibrary,19)</onclick>
 				<onclick>SetFocus(21)</onclick>
 				<visible>!IsEmpty(Window.Property(filter))</visible>
+			</control>
+
+			<control type="togglebutton" id="20">
+				<description>Update library</description>
+				<label>653</label>
+				<altlabel>13353</altlabel>
+				<width>330</width>
+				<align>left</align>
+				<usealttexture>library.isscanningvideo</usealttexture>
 			</control>
 
 			<control type="button" id="98">

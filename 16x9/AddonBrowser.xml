@@ -60,6 +60,13 @@
 				<width>330</width>
 			</control>
 
+			<control type="radiobutton" id ="7">
+				<description>Hide foreign</description>
+				<align>left</align>
+				<width>330</width>					
+				<label>25001</label>
+			</control>
+
 			<control type="button" id="98">
 				<description>Open Player Controls</description>
 				<width>330</width>

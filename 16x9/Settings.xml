@@ -85,8 +85,8 @@
 					<onclick>activatewindow(WeatherSettings)</onclick>
 				</item>
 				<item id="7">
-					<description>Network</description>
-					<label>705</label>
+					<description>Services</description>
+					<label>14036</label>
 					<onclick>activatewindow(NetworkSettings)</onclick>
 				</item>
 				<item id="8">
@@ -104,11 +104,7 @@
 					<label>130</label>
 					<onclick>activatewindow(7)</onclick>
 				</item>
-				<item id="11">
-					<description>Custom Settings</description>
-					<label>636</label>
-					<onclick>activatewindow(56)</onclick>
-				</item>
+
 			</content>
 		</control>
 
