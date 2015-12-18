@@ -46,9 +46,23 @@
 				<altlabel>585</altlabel>
 			</control>
 
-			<control type="radiobutton" id="5">
+			<control type="button" id="5">
 				<description>Enable auto-updates</description>
 				<label>24063</label>
+				<align>left</align>
+				<width>330</width>
+			</control>
+			
+			<control type="button" id="9">
+				<description>check repo updatea</description>
+				<label>24034</label>
+				<align>left</align>
+				<width>330</width>
+			</control>
+			
+			<control type="radiobutton" id="8">
+				<description>Hide Broken</description>
+				<label>24999</label>
 				<align>left</align>
 				<width>330</width>
 			</control>

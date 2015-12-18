@@ -84,8 +84,8 @@
 				</control>
 
 			</control>
-
-			<control type="button" id="17">
+                            <!--fix confluence-->
+			<control type="edit" id="17">
 				<description>Value Button</description>
 				<left>30</left>
 				<top>234</top>

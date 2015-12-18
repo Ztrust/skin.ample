@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
-<window id="130">
+<window>
 	<defaultcontrol always="true">5</defaultcontrol>
 
 
 	<controls>
 
 		<include>GlobalOverlay</include>
+   <!--Confluence fixing-->
+<control type="label" id="14">
+ 			<description>header label</description>
+ 			<left>40</left>
+ 			<top>20</top>
+ 			<width>620</width>
+ 			<height>30</height>
+ 			<font>font13_title</font>
+			<label>-</label>
+ 			<align>center</align>
+ 			<aligny>center</aligny>
+ 			<textcolor>selected</textcolor>
+</control>
 
 		<control type="group">
 			<left>630</left>
@@ -20,7 +33,7 @@
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
-			<control type="label" id="1000">
+			<control type="label" id="102">
 				<description>Profile Name</description>
 				<left>15</left>
 				<top>48</top>
@@ -29,14 +42,14 @@
 				<shadowcolor>black</shadowcolor>
 			</control>
 
-			<control type="label" id="1001">
+			<control type="label" id="103">
 				<description>Profile Directory</description>
 				<left>15</left>
 				<top>96</top>
 				<width>450</width>
 			</control>
 
-			<control type="image" id="2">
+			<control type="image" id="101">
 				<description>profile image</description>
 				<left>480</left>
 				<top>15</top>

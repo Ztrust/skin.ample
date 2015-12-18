@@ -158,7 +158,18 @@
 				<width>1680</width>
 				<visible>Player.Seeking</visible>
 			</control>
-
+			<control type="label">
+				<description>Seeking Label</description>
+				<left>20</left>
+				<top>7</top>
+				<width>240</width>
+				<height>20</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font10_title</font>
+				<textcolor>blue</textcolor>
+				<label>$VAR[SeekLabel]</label>
+			</control>
 		</control>
 
 	</controls>

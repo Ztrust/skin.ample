@@ -52,14 +52,6 @@
 				<altlabel>585</altlabel>
 			</control>
 
-			<control type="button" id="5">
-				<description>Files</description>
-				<width>330</width>
-				<align>left</align>
-				<label>31001</label>
-				<onclick>SetFocus(50)</onclick>
-			</control>
-
 			<control type="button" id="8">
 				<description>Search</description>
 				<width>330</width>

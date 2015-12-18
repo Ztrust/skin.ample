@@ -7,6 +7,59 @@
 	<controls>
 	
 		<include>GlobalBackground</include>
+	<control type="grouplist" id="9010">
+			<description>Home List</description>
+			<visible allowhiddenfocus="true">Container(9000).Hasfocus(14)</visible>
+			<!--<focusposition>2</focusposition>-->
+			<!--<orientation>horizontal</orientation>-->
+			<left>335</left>
+			<top>400</top>
+			<width>400</width>
+			<height>800</height>
+			<onup>9010</onup>
+			<ondown>9010</ondown>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+            <onback>9000</onback>
+
+
+		<control type="button" id="22">
+		<width>330</width>
+		<align>left</align>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>Blue</focusedcolor>
+		<label>dialog yes no</label>
+		<onclick>ActivateWindow(100)</onclick>
+		<texturefocus border="5">commen/fobutton.png</texturefocus>
+		<texturenofocus border="2">-</texturenofocus>
+		</control>
+		
+    <control type="button" id="23">
+		<width>330</width>
+		<align>left</align>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>Blue</focusedcolor>
+		<label>dialog progress</label>
+		<onclick>ActivateWindow(101)</onclick>
+		<texturefocus border="5">commen/fobutton.png</texturefocus>
+		<texturenofocus border="2">-</texturenofocus>
+		</control>
+
+		<control type="button" id="24">
+		<width>330</width>
+		<align>left</align>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>Blue</focusedcolor>
+		<label>dialog ok</label>
+		<onclick>ActivateWindow(2002)</onclick>
+		<texturefocus border="5">commen/fobutton.png</texturefocus>
+		<texturenofocus border="2">-</texturenofocus>
+		</control>	
+
+
+
+</control>
+
 		
 		<control type="wraplist" id="9000">
 			<description>Home List</description>
@@ -17,7 +70,7 @@
 			<width>1250</width>
 			<height>60</height>
 			<onup>-</onup>
-			<ondown>-</ondown>
+			<ondown>9010</ondown>
 			<onleft>9000</onleft>
 			<onright>9000</onright>
 			
@@ -31,7 +84,7 @@
 					<align>center</align>
 					<textcolor>grey2</textcolor>
 					<font>Menu</font>
-					<info>ListItem.Label</info>
+<label>$INFO[ListItem.Label]</label>
 				</control>
 			
 			</itemlayout>
@@ -55,11 +108,18 @@
 					<align>center</align>
 					<textcolor>darkgrey</textcolor>
 					<font>Menu</font>
-					<info>ListItem.Label</info>
+                    <label>$INFO[ListItem.Label]</label>
 				</control>
 			</focusedlayout>
 			
 			<content>
+
+				<item id="14">
+					<description>skin help</description>
+					<label>skinning</label>
+					<onclick>ActivateWindow(Programs,Addons)</onclick>
+				</item>
+				
 				
 				<item id="1">
 					<description>Programs</description>

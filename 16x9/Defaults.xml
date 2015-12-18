@@ -2,6 +2,16 @@
 <!-- Foundation -->
 <includes>
 
+<!--please add the following textures to these controls:
+
+radiobutton control:
+textureradioondisabled
+textureradiooffdisabled
+
+spincontrol / spincontrolex:
+textureupdisabled
+texturedowndisabled-->
+
 	<default type="label">
 		<left>0</left>
 		<top>0</top>

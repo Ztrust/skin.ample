@@ -3,8 +3,8 @@
 <window id="103">
 	<defaultcontrol always="true">300</defaultcontrol>
 
-
-	<coordinates>
+<!--support for international keyboardhttp://forum.kodi.tv/showthread.php?tid=194515&pid=1771814#pid1771814
+-->	<coordinates>
 		<origin x="420" y="270" />
 	</coordinates>
 
@@ -47,7 +47,7 @@
 				<texture border="20">other_textures/KeyboardEditArea.png</texture>
 			</control>
 
-			<control type="label" id="310">
+			<control type="edit" id="312">
 				<description>Edit Text</description>
 				<left>53</left>
 				<top>75</top>
