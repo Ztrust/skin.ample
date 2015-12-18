@@ -27,6 +27,18 @@
 			<size>30</size>
 		</font>
 
+		<font>
+			<name>Menu</name>
+			<filename>Raleway-Regular.ttf</filename>
+			<size>28</size>
+		</font>
+
+		<font>
+			<name>Menufocus</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<size>32</size>
+		</font>
+
 		<!-- Required for system -->
 		<font>
 			<name>font13</name>
