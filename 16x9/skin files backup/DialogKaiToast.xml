@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="107">
+	<defaultcontrol always="true">402</defaultcontrol>
+
+
+	<controls>
+
+		<include>GlobalOverlay</include>
+
+		<control type="group">
+			<left>630</left>
+			<top>882</top>
+
+			<control type="image">
+				<description>background image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>660</width>
+				<height>156</height>
+				<texture border="20">other_textures/OverlayDialogBackground.png</texture>
+			</control>
+
+			<control type="image" id="400">
+				<description>Image</description>
+				<left>30</left>
+				<top>30</top>
+				<width>96</width>
+				<height>96</height>
+				<aspectratio>keep</aspectratio>
+				<texture>DefaultFile.png</texture>
+			</control>
+
+			<control type="label" id="401">
+				<description>heading</description>
+				<left>156</left>
+				<top>78</top>
+				<width>459</width>
+				<height>48</height>
+				<label>-</label>
+				<scroll>true</scroll>
+			</control>
+
+			<control type="label" id="402">
+				<description>message</description>
+				<left>156</left>
+				<top>30</top>
+				<width>459</width>
+				<height>48</height>
+				<label>-</label>
+				<scroll>true</scroll>
+			</control>
+
+
+
+		</control>
+
+	</controls>
+
+</window>

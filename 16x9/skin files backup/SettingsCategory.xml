@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window>
+	<defaultcontrol always="true">3</defaultcontrol>
+<!--the level of settings shown in the gui (Basic, Standard, Advanced, Expert)
+can now be controlled by a button with id="20" in SettingsCategory.xml:-->
+
+
+<!--add label 14 new default header-->
+
+	<controls>
+                <!--fix confluence-->
+		<include>GlobalBackground</include>
+		<control type="sliderex" id="13">
+			<description>Default Slider</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<height>40</height>
+			<font>font13</font>
+			<textcolor>grey2</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
+			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<aligny>center</aligny>
+		</control>
+
+		<control type="grouplist" id="3">
+			<description>Button Area</description>
+			<left>15</left>
+			<top>210</top>
+			<width>450</width>
+			<height>720</height>
+			<itemgap>3</itemgap>
+			<onleft>5</onleft>
+			<onright>5</onright>
+			<onup>3</onup>
+			<ondown>3</ondown>
+			<orientation>vertical</orientation>
+		</control>
+
+		<control type="grouplist" id="5">
+			<description>Control Area</description>
+			<left>510</left>
+			<top>210</top>
+			<width>1230</width>
+			<height>720</height>
+			<itemgap>3</itemgap>
+			<onleft>3</onleft>
+			<onright>3</onright>
+			<onup>5</onup>
+			<ondown>5</ondown>
+			<orientation>vertical</orientation>
+		</control>
+
+		<control type="button" id="7">
+			<description>Default Button</description>
+			<align>left</align>
+		</control>
+
+		<control type="radiobutton" id="8">
+			<description>Default Radio Button</description>
+			<radioposx>1155</radioposx>
+			<align>left</align>
+		</control>
+
+		<control type="spincontrolex" id="9">
+			<description>Default Spin Control</description>
+			<align>left</align>
+		</control>
+
+		<control type="button" id="10">
+			<description>Default Category Button</description>
+			<align>left</align>
+		</control>
+
+	</controls>
+
+</window>

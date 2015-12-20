@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="101">
+	<defaultcontrol always="true">10</defaultcontrol>
+
+
+	<controls>
+
+		<include>GlobalOverlay</include>
+
+		<control type="group">
+			<left>570</left>
+			<top>333</top>
+
+			<control type="image">
+				<left>-30</left>
+				<top>-30</top>
+				<width>840</width>
+				<height>414</height>
+				<texture border="22">other_textures/ContentPanel.png</texture>
+			</control>
+
+			<control type="label" id="1">
+				<description>heading</description>
+				<left>15</left>
+				<width>750</width>
+				<label>-</label>
+				<font>Medium</font>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+			</control>
+
+						        <control type="textbox" id="9">
+            <description>text</description>
+            <left>45</left>
+            <top>93</top>
+            <width>825</width>
+            <height>147</height>
+            <align>left</align>
+            <label>-</label>
+            <font>font13</font>
+            <autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
+        </control>
+
+			<control type="progress">
+				<description>Progressbar</description>
+				<left>15</left>
+				<top>225</top>
+				<width>750</width>
+				<height>27</height>
+				<info>System.Progressbar</info>
+			</control>
+
+			<control type="button" id="10">
+				<description>Cancel</description>
+				<left>278</left>
+				<top>267</top>
+				<width>225</width>
+				<label>222</label>
+				<onleft>10</onleft>
+				<onright>10</onright>
+				<onup>10</onup>
+				<ondown>10</ondown>
+			</control>
+
+		</control>
+
+	</controls>
+
+</window>

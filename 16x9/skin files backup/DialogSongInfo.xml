@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="135">
+	<defaultcontrol always="true">14</defaultcontrol>
+
+<!--http://forum.kodi.tv/showthread.php?tid=231270&pid=2135449#pid2135449 user rating-->
+	<controls>
+
+		<include>GlobalOverlay</include>
+
+		<control type="group">
+			<left>300</left>
+			<top>120</top>
+
+			<control type="image">
+				<left>-30</left>
+				<top>-30</top>
+				<width>1380</width>
+				<height>900</height>
+				<texture border="22">other_textures/ContentPanel.png</texture>
+			</control>
+
+			<control type="label">
+				<description>Header Label</description>
+				<left>15</left>
+				<align>center</align>
+				<font>Medium</font>
+				<width>1290</width>
+				<label>658</label>
+			</control>
+
+			<control type="image" id="3">
+				<description>Cover Image</description>
+				<left>15</left>
+				<top>60</top>
+				<width>383</width>
+				<height>383</height>
+				<texture>$INFO[ListItem.Icon]</texture>
+				<aspectratio align="center" aligny="top">keep</aspectratio>
+				<bordertexture border="5">other_textures/ButtonFO.png</bordertexture>
+				<bordersize>8</bordersize>
+			</control>
+
+			<control type="label">
+				<description>Title</description>
+				<left>435</left>
+				<top>60</top>
+				<width>870</width>
+				<font>Large</font>
+				<label>$INFO[ListItem.Title]</label>
+				<scroll>true</scroll>
+			</control>
+
+			<control type="grouplist">
+				<left>435</left>
+				<top>126</top>
+				<width>870</width>
+				<height>168</height>
+				<itemgap>0</itemgap>
+				<orientation>vertical</orientation>
+
+				<control type="label">
+					<description>Album</description>
+					<width>870</width>
+					<height>42</height>
+					<label>$INFO[ListItem.Album,[COLOR blue]$LOCALIZE[558]:[/COLOR] ]</label>
+					<scroll>true</scroll>
+					<visible>!IsEmpty(ListItem.Album)</visible>
+				</control>
+
+				<control type="label">
+					<description>Artist</description>
+					<width>870</width>
+					<height>42</height>
+					<label>$INFO[ListItem.Artist,[COLOR blue]$LOCALIZE[557]:[/COLOR] ]</label>
+					<scroll>true</scroll>
+					<visible>!IsEmpty(ListItem.Artist)</visible>
+				</control>
+
+				<control type="label">
+					<description>Genre</description>
+					<width>870</width>
+					<height>42</height>
+					<label>$INFO[ListItem.Genre,[COLOR blue]$LOCALIZE[515]:[/COLOR] ]</label>
+					<scroll>true</scroll>
+					<visible>!IsEmpty(ListItem.Genre)</visible>
+				</control>
+
+				<control type="label">
+					<description>Year</description>
+					<width>870</width>
+					<height>42</height>
+					<label>$INFO[ListItem.Year,[COLOR blue]$LOCALIZE[562]:[/COLOR] ]</label>
+					<scroll>true</scroll>
+					<visible>!IsEmpty(ListItem.Year)</visible>
+				</control>
+
+			</control>
+
+			<control type="grouplist">
+				<left>435</left>
+				<top>285</top>
+				<itemgap>15</itemgap>
+				<orientation>horizontal</orientation>	
+
+				<control type="label">
+					<description>Rating Title</description>
+					<width min="0" max="300">auto</width>
+					<textcolor>blue</textcolor>
+					<label>$LOCALIZE[563]:</label>
+				</control>
+
+				<control type="image">
+					<description>Rating value</description>
+					<width>180</width>
+					<height>75</height>
+					<texture>other_textures/LeftRating/$INFO[ListItem.StarRating]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+
+			</control>
+
+			<control type="textbox" id="4">
+				<description>Review</description>
+				<left>435</left>
+				<top>402</top>
+				<width>870</width>
+				<height>395</height>
+				<align>justify</align>
+				<label fallback="161">$INFO[ListItem.Comment]</label>
+			</control>
+
+			<control type="image">
+				<left>15</left>
+				<top>480</top>
+				<width>383</width>
+				<height>66</height>				
+				<texture border="5">other_textures/ButtonFo.png</texture>
+				<visible>!ControlGroup(9000).HasFocus</visible>
+			</control>
+
+			<control type="image">
+				<left>15</left>
+				<top>480</top>
+				<width>383</width>
+				<height>66</height>				
+				<texture border="2">other_textures/ButtonNF.png</texture>
+				<visible>ControlGroup(9000).HasFocus</visible>
+			</control>
+
+			<control type="label">
+				<left>45</left>
+				<top>480</top>
+				<width>353</width>
+				<label>33067</label>
+			</control>
+
+			<control type="button" id="14">
+				<description>Decrease Rating</description>
+				<left>270</left>
+				<top>498</top>
+				<width>50</width>
+				<height>33</height>
+				<onclick>DecreaseRating</onclick>
+				<texturenofocus>other_textures/scroll-down-2.png</texturenofocus>
+				<texturefocus>other_textures/scroll-down-focus-2.png</texturefocus>
+				<onleft>15</onleft>
+				<onright>15</onright>
+				<onup>13</onup>
+				<ondown>10</ondown>
+			</control>
+
+			<control type="button" id="15">
+				<description>Increase Rating</description>
+				<left>320</left>
+				<top>498</top>
+				<width>50</width>
+				<height>33</height>
+				<onclick>IncreaseRating</onclick>
+				<texturenofocus>other_textures/scroll-up-2.png</texturenofocus>
+				<texturefocus>other_textures/scroll-up-focus-2.png</texturefocus>
+				<onleft>14</onleft>
+				<onright>14</onright>
+				<onup>13</onup>
+				<ondown>10</ondown>
+			</control>
+
+			<control type="grouplist" id="9000">
+				<left>15</left>
+				<top>548</top>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>15</onup>
+				<ondown>14</ondown>
+				<itemgap>3</itemgap>
+				<orientation>vertical</orientation>
+
+<!--look at top link-->
+				<control type="button" id="12">
+					<description>Album Info button</description>
+					<width>383</width>
+					<label>10523</label>
+				</control>
+
+				<control type="button" id ="13">
+					<description>Get Thumb button</description>
+					<width>383</width>
+					<label>13405</label>
+				</control>
+
+			</control>
+
+		</control>
+
+	</controls>
+
+</window>

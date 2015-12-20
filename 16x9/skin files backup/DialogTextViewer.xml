@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="147">
+	<defaultcontrol>61</defaultcontrol>
+
+	<controls>
+
+		<include>GlobalOverlay</include>
+
+		<control type="group">
+			<left>240</left>
+			<top>83</top>
+
+			<control type="image">
+				<left>-30</left>
+				<top>-30</top>
+				<width>1500</width>
+				<height>975</height>
+				<texture border="22">other_textures/ContentPanel.png</texture>
+			</control>
+
+			<control type="label" id="1">
+				<description>header label</description>
+				<left>15</left>
+				<top>48</top>
+				<width>1410</width>
+				<height>45</height>
+			</control>
+
+			<control type="textbox" id="5">
+				<description>textarea</description>
+				<left>15</left>
+				<top>108</top>
+				<width>1383</width>
+				<height>780</height>
+				<align>justify</align>
+			</control>
+
+			<control type="scrollbar" id="61">
+				<left>1410</left>
+				<top>108</top>
+				<width>38</width>
+				<height>780</height>
+				<onleft>Close</onleft>
+				<onright>Close</onright>
+				<ondown>61</ondown>
+				<onup>61</onup>
+			</control>
+
+		</control>
+
+	</controls>
+
+</window>

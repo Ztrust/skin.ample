@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="129">
+	<defaultcontrol always="true">10</defaultcontrol>
+
+
+	<controls>
+
+		<include>GlobalOverlay</include>
+
+		<control type="group">
+			<left>450</left>
+			<top>120</top>
+
+			<control type="image">
+				<left>-30</left>
+				<top>-30</top>
+				<width>1125</width>
+				<height>900</height>
+				<texture border="22">other_textures/ContentPanel.png</texture>
+			</control>
+
+			<control type="label" id="0">
+				<description>Path</description>
+				<left>15</left>
+				<top>45</top>
+				<width>990</width>
+				<align>center</align>
+				<font>Medium</font>
+				<label>1021</label>
+			</control>
+
+			<control type="list" id="10">
+				<left>15</left>
+				<top>120</top>
+				<width>660</width>
+				<height>483</height>
+				<onup>19</onup>
+				<onleft>9000</onleft>
+				<onright>9000</onright>
+				<ondown>12</ondown>
+				<itemlayout height="69">
+
+					<control type="image">
+						<width>660</width>
+						<height>66</height>
+						<texture border="2">other_textures/ButtonNF.png</texture>
+					</control>
+
+					<control type="label">
+						<left>30</left>
+						<width>600</width>
+						<info>ListItem.Label</info>
+					</control>
+
+				</itemlayout>
+
+				<focusedlayout height="69">
+
+					<control type="image">
+						<width>660</width>
+						<height>66</height>
+						<texture border="5">other_textures/ButtonFO.png</texture>
+						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(10)">Conditional</animation>
+					</control>
+
+					<control type="label">
+						<left>30</left>
+						<width>600</width>
+						<info>ListItem.Label</info>
+					</control>
+
+				</focusedlayout>
+
+			</control>
+
+			<control type="grouplist" id="9000">
+				<left>705</left>
+				<top>120</top>
+				<width>300</width>
+				<itemgap>3</itemgap>
+				<orientation>vertical</orientation>
+				<onleft>10</onleft>
+				<onright>10</onright>
+
+				<control type="button" id="11">
+					<description>Browse</description>
+					<width>300</width>
+					<label>1024</label>
+				</control>
+
+				<control type="button" id="13">
+					<description>Add</description>
+					<width>300</width>
+					<label>15019</label>
+				</control>
+
+				<control type="button" id="14">
+					<description>remove</description>
+					<width>300</width>
+					<label>1210</label>
+				</control>
+
+			</control>
+
+			<control type="label" id="0">
+				<description>Name Label</description>
+				<left>15</left>
+				<top>597</top>
+				<width>990</width>
+				<label>1022</label>
+			</control>
+
+			<control type="edit" id="12">
+				<description>Name</description>
+				<left>15</left>
+				<top>672</top>
+				<label>-</label>
+				<width>990</width>
+				<align>left</align>
+				<textoffsetx>30</textoffsetx>
+				<onup>10</onup>
+				<onleft>12</onleft>
+				<onright>18</onright>
+				<ondown>19</ondown>
+			</control>
+
+			<control type="button" id="18">
+				<description>Ok</description>
+				<left>150</left>
+				<top>759</top>
+				<width>330</width>
+				<label>186</label>
+				<onup>12</onup>
+				<onleft>20</onleft>
+				<onright>19</onright>
+				<ondown>10</ondown>
+			</control>
+
+			<control type="button" id="19">
+				<description>Cancel</description>
+				<left>540</left>
+				<top>759</top>
+				<width>330</width>
+				<label>222</label>
+				<onup>12</onup>
+				<onleft>18</onleft>
+				<onright>20</onright>
+				<ondown>10</ondown>
+			</control>
+
+		</control>
+
+	</controls>
+
+</window>

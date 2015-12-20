@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window>
+	<defaultcontrol always="true">5</defaultcontrol>
+
+
+	<controls>
+
+		<include>GlobalOverlay</include>
+   <!--Confluence fixing-->
+<control type="label" id="14">
+ 			<description>header label</description>
+ 			<left>40</left>
+ 			<top>20</top>
+ 			<width>620</width>
+ 			<height>30</height>
+ 			<font>font13_title</font>
+			<label>-</label>
+ 			<align>center</align>
+ 			<aligny>center</aligny>
+ 			<textcolor>selected</textcolor>
+</control>
+
+		<control type="group">
+			<left>630</left>
+			<top>210</top>
+
+			<control type="image">
+				<left>-30</left>
+				<top>-30</top>
+				<width>720</width>
+				<height>744</height>
+				<texture border="22">other_textures/ContentPanel.png</texture>
+			</control>
+
+			<control type="label" id="102">
+				<description>Profile Name</description>
+				<left>15</left>
+				<top>48</top>
+				<width>450</width>
+				<font>Medium</font>
+				<shadowcolor>black</shadowcolor>
+			</control>
+
+			<control type="label" id="103">
+				<description>Profile Directory</description>
+				<left>15</left>
+				<top>96</top>
+				<width>450</width>
+			</control>
+
+			<control type="image" id="101">
+				<description>profile image</description>
+				<left>480</left>
+				<top>15</top>
+				<width>165</width>
+				<height>165</height>
+				<bordertexture border="5">other_textures/ButtonFO.png</bordertexture>
+				<bordersize>8</bordersize>
+				<texture>other_textures/unknown-user.png</texture>
+				<aspectratio align="right" aligny="top">keep</aspectratio>
+			</control>
+
+			<control type="grouplist" id="5">
+				<description>Control Area</description>
+				<left>15</left>
+				<top>222</top>
+				<width>630</width>
+				<height>353</height>
+				<itemgap>3</itemgap>
+				<orientation>vertical</orientation>
+				<onleft>28</onleft>
+				<onright>28</onright>
+				<onup>28</onup>
+				<ondown>28</ondown>
+			</control>
+
+			<control type="button" id="7">
+				<description>button</description>
+			</control>
+
+			<control type="radiobutton" id="8">
+				<description>radio_button</description>
+			</control>
+
+			<control type="spincontrolex" id="9">
+				<description>spin_controlex</description>
+			</control>
+
+			<control type="button" id="28">
+				<description>Ok</description>
+				<left>15</left>
+				<top>588</top>
+				<width>240</width>
+				<label>186</label>
+				<onleft>5</onleft>
+				<onright>29</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+			</control>
+
+			<control type="button" id="29">
+				<description>Cancel</description>
+				<left>405</left>
+				<top>588</top>
+				<width>240</width>
+				<label>222</label>
+				<onleft>28</onleft>
+				<onright>5</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+			</control>
+
+		</control>
+
+	</controls>
+
+</window>

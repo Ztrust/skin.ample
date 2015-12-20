@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window id="136">
+	<defaultcontrol always="true">-</defaultcontrol>
+
+
+	<controls>
+
+		<include>GlobalOverlay</include>
+
+		<control type="group">
+			<left>735</left>
+			<top>486</top>
+
+			<control type="image">
+				<description>background image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>450</width>
+				<height>117</height>
+				<texture border="20">other_textures/OverlayDialogBackground.png</texture>
+			</control>
+
+			<control type="image">
+				<description>Busy animation</description>
+				<left>30</left>
+				<top>30</top>
+				<width>48</width>
+				<height>48</height>
+				<texture>other_textures/busy.png</texture>
+				<aspectratio>keep</aspectratio>
+				<animation effect="rotate" start="0" end="360" center="54,54" time="1200" loop="true" condition="true">conditional</animation>
+			</control>
+
+			<control type="label">
+				<description>Busy label</description>
+				<left>105</left>
+				<top>30</top>
+				<width>720</width>
+				<height>48</height>
+				<align>left</align>
+				<label>20186</label>
+			</control>
+
+			<control type="progress" id="10">
+				<description>Progressbar</description>
+				<posx>20</posx>
+				<posy>65</posy>
+				<width>160</width>
+				<height>10</height>
+				<!-- <info>System.Progressbar</info> -->
+			</control>
+
+		</control>
+
+	</controls>
+
+</window>
