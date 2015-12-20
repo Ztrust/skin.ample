@@ -1,0 +1,21 @@
+# Kodi Media Center language file
+# Addon Name: Creation
+# Addon id: skin.creation
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#[Internal Reference] Skin Strings From 31000 to 31999
+
+#. Empty strings 31000 - 31049
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr ""
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr ""
+
+  

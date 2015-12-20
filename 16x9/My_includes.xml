@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	
+	
+	<include name="SideMenuLeft">
+		<animation type="Conditional" condition="!ControlGroup(9000).HasFocus()">
+			<effect type="fade" start="100" end="50" time="200" />
+			<effect type="zoom" center="0,450" start="100" end="80" time="200" />
+		</animation>
+		<animation effect="slide" start="0,0" end="330,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus">Conditional</animation>
+		
+		<control type="image">
+		<left>0</left>
+		<top>0</top>
+		<width>330</width>
+		<height>1080</height>
+		<texture>colors/color_white.png</texture>
+		</control>
+	</include>
+	
+	<include name="ButtonCommonValues">
+		<height>40</height>
+		<width>330</width>
+		<textoffsetx>10</textoffsetx>
+		<textwidth>330</textwidth>
+		<aligny>center</aligny>
+		<font>Menufocus</font>
+		<textcolor>true grey</textcolor>
+		<texturefocus border="0">colors/color_orange.png</texturefocus>
+		<align>left</align>
+		<texturenofocus>-</texturenofocus>
+		<pulseonselect>false</pulseonselect>
+	</include>
+	
+	    <variable name="PlayList">
+        <value condition="Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)">ActivateWindow(videoplaylist)</value>
+        <value>ActivateWindow(musicplaylist)</value>
+    </variable>
+	
+</includes>

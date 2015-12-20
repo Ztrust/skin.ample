@@ -29,14 +29,14 @@
 
 		<font>
 			<name>Menu</name>
-			<filename>Raleway-Regular.ttf</filename>
+			<filename>Raleway-Medium.ttf</filename>
 			<size>28</size>
 		</font>
 
 		<font>
 			<name>Menufocus</name>
 			<filename>Comfortaa-Bold.ttf</filename>
-			<size>32</size>
+			<size>18</size>
 		</font>
 
 		<!-- Required for system -->

@@ -2,9 +2,11 @@
 <!-- Foundation -->
 <includes>
 
-	<include file="Defaults.xml" />
-	<include file="CommonViews.xml" />
-	<include file="View_50_List.xml" />
+	<include file="Defaults.xml"/>
+	<include file="CommonViews.xml"/>
+	<include file="View_50_List.xml"/>
+				<!--Mine -->
+	<include file="My_includes.xml"/>
 
 
 	<variable name="SeekLabel">

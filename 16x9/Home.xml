@@ -6,7 +6,7 @@
 
 	<controls>
 	
-		<include>GlobalBackground</include>
+		<!--<include>GlobalBackground</include>-->
 	<control type="grouplist" id="9010">
 			<description>Home List</description>
 			<visible allowhiddenfocus="true">Container(9000).Hasfocus(14)</visible>
