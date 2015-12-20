@@ -3,13 +3,13 @@
 	<defaultcontrol always="true">50</defaultcontrol>
 	<views>50</views>
 	<controls>
-		<!--		<control type="radiobutton" id="19"><description>Filter (hidden)</description><include>HiddenButton</include></control>-->
 		<include>GlobalBackground</include>
 		<include>View_50_List</include>
-		<!--- 'Now Playing...' can be coded as a custom button with these actions: ActivateWindow(videoplaylist) and ActivateWindow(musicplaylist)-->
+
+		
 		<control type="group">
 			<left>-330</left>
-			<include>SideMenuLeft</include>
+		<include>SideMenuLeft</include>
 			<control type="grouplist" id="9000">
 				<left>-</left>
 				<top>210</top>
@@ -23,184 +23,88 @@
 				<orientation>vertical</orientation>
 				
 				<control type="button" id="2">
-				<description>View</description>
-				<include>ButtonCommonValues</include>
-				<label>-</label>
+					<description>View</description>
+					<include>ButtonCommonValues</include>
+					<label>-</label>
 				</control>
 				
 				<control type="button" id="3">
-				<description>Sort</description>
-				<include>ButtonCommonValues</include>
-				<label>-</label>
+					<description>Sort</description>
+					<include>ButtonCommonValues</include>
+					<label>-</label>
 				</control>
-			
+				
 				<control type="togglebutton" id="4">
-				<description>Sort Mode</description>
-				<include>ButtonCommonValues</include>
-				<label>31050</label>
-				<altlabel>31051</altlabel>
+					<description>Sort Mode</description>
+					<include>ButtonCommonValues</include>
+					<label>31050</label>
+					<altlabel>31051</altlabel>
 				</control>
 				
 				<control type="edit" id="19">
-				<description>Filter</description>
-				<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
-				<include>ButtonCommonValues</include>
-				<label>587</label>
+					<description>Filter</description>
+					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
 				</control>	
 				
 				<control type="radiobutton" id="98">
-				<description>Filter</description>
-				<visible>Container.CanFilterAdvanced</visible>
-				<include>ButtonCommonValues</include>
-				<label>587</label>
-				<selected>Container.Filtered</selected>
-				<onclick>right</onclick>
-				<onclick>Filter</onclick>
+					<description>Filter</description>
+					<visible>Container.CanFilterAdvanced</visible>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<selected>Container.Filtered</selected>
+					<onclick>right</onclick>
+					<onclick>Filter</onclick>
 				</control>
 				
 				<control type="button" id="8">
-				<description>Search</description>
-				<include>ButtonCommonValues</include>
-				<label>137</label>
+					<description>Search</description>
+					<include>ButtonCommonValues</include>
+					<label>137</label>
 				</control>				
-
+				
 				<control type="radiobutton" id="14">
-				<description>Show Watched/Unwatched</description>
-				<include>ButtonCommonValues</include>
-				<label>20367</label>
+					<description>Show Watched/Unwatched</description>
+					<include>ButtonCommonValues</include>
+					<label>20367</label>
 				</control>	
 				
 				<control type="button" id="16">
-				<description>PartyMode</description>
-				<visible>Container.Content(MusicVideos)</visible>
-				<include>ButtonCommonValues</include>
-				<label>589</label>
-				</control>
-
-				<control type="radiobutton" id="11">
-				<description>Unlock Shares</description>
-				<include>ButtonCommonValues</include>
-				<label>20336</label>
-				<onclick>mastermode</onclick>
-				<selected>system.ismaster</selected>
-				<visible>system.haslocks</visible>
+					<description>PartyMode</description>
+					<visible>Container.Content(MusicVideos) | Container.Content(Music)</visible>
+					<include>ButtonCommonValues</include>
+					<label>589</label>
 				</control>
 				
-				<control type="togglebutton" id="20">
-				<description>Update Library</description>
-				<include>ButtonCommonValues</include>
-				<label>653</label>
-				<altlabel>13353</altlabel>
-				<alttexturenofocus>-</alttexturenofocus>
-				<usealttexture>library.isscanningvideo</usealttexture>
-				<alttexturefocus>colors/color_orange.png</alttexturefocus>
-				</control>
-				
-        <control type="button" id="612">
-            <description>Go to playlist</description>
-			<visible>Player.HasMedia</visible>
-            <include>ButtonCommonValues</include>
-            <label>13350</label>
-            <onclick>$VAR[PlayList]</onclick>
-            <visible>[Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + !StringCompare(Playlist.Length(music),0)]</visible>
-        </control>
-				
-
-
-				
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<!--<control type="button" id="2">
-					<description>View</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-				</control>
-				<control type="button" id="3">
-					<description>Sort</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-				</control>
-				<control type="togglebutton" id="4">
-					<description>Ascending</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>584</label>
-					<altlabel>585</altlabel>
-				</control>
-				<control type="button" id="5">
-					<description>Files</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>31001</label>
-					<onclick>SetFocus(50)</onclick>
-				</control>
-				<control type="button" id="8">
-					<description>Search</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>137</label>
-				</control>
 				<control type="radiobutton" id="11">
 					<description>Unlock Shares</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
+					<include>ButtonCommonValues</include>
 					<label>20336</label>
-					<onclick>xbmc.mastermode</onclick>
+					<onclick>mastermode</onclick>
 					<selected>system.ismaster</selected>
 					<visible>system.haslocks</visible>
 				</control>
-				<control type="radiobutton" id="16">
-					<description>PartyMode</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>589</label>
-				</control>
-				<control type="button" id="21">
-					<description>Activate Filter</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>587</label>
-					<onclick>SendClick(videolibrary,19)</onclick>
-					<onclick>SetFocus(22)</onclick>
-					<visible>IsEmpty(Window.Property(filter))</visible>
-				</control>
-				<control type="button" id="22">
-					<description>Show Filter Label</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>$INFO[Window.Property(filter)]</label>
-					<onclick>SendClick(videolibrary,19)</onclick>
-					<onclick>SetFocus(21)</onclick>
-					<visible>!IsEmpty(Window.Property(filter))</visible>
-				</control>
+				
 				<control type="togglebutton" id="20">
-					<description>Update library</description>
+					<description>Update Library</description>
+					<include>ButtonCommonValues</include>
 					<label>653</label>
 					<altlabel>13353</altlabel>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
+					<alttexturenofocus>-</alttexturenofocus>
 					<usealttexture>library.isscanningvideo</usealttexture>
+					<alttexturefocus>colors/color_orange.png</alttexturefocus>
 				</control>
-				<control type="button" id="98">
-					<description>Open Player Controls</description>
-			<include>ButtonCommonValues</include>
-					<align>left</align>
-					<label>31015</label>
-					<onclick>ActivateWindow(playercontrols)</onclick>
+				
+				<control type="button" id="612">
+					<description>Go to playlist</description>
 					<visible>Player.HasMedia</visible>
-				</control>-->
+					<visible>[Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + !StringCompare(Playlist.Length(music),0)]</visible>
+					<include>ButtonCommonValues</include>
+					<label>13350</label>
+					<onclick>$VAR[PlayList]</onclick>
+				</control>
+				
 			</control>
 		</control>
 	</controls>
