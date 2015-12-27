@@ -1,0 +1,110 @@
+# Kodi Media Center language file
+# Addon Name: Creation
+# Addon id: skin.creation
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#[Internal Reference] Skin Strings From 31000 to 31999
+
+#. Empty strings 31000 - 31049
+
+msgctxt "#31001"
+msgid "Videos"
+msgstr ""
+
+msgctxt "#31002"
+msgid "Music"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Movies"
+msgstr ""
+
+msgctxt "#31004"
+msgid "Tv Shows"
+msgstr ""
+
+msgctxt "#31005"
+msgid "Tv"
+msgstr ""
+
+msgctxt "#31006"
+msgid "Add Ons"
+msgstr ""
+
+msgctxt "#31007"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "#31008"
+msgid "Favourites"
+msgstr ""
+
+msgctxt "#31009"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#31010"
+msgid "Profiles"
+msgstr ""
+
+msgctxt "#31011"
+msgid "Weather"
+msgstr ""
+
+msgctxt "#31012"
+msgid "File manager"
+msgstr ""
+
+msgctxt "#31013"
+msgid "Shutdown"
+msgstr ""
+
+msgctxt "#31014"
+msgid "Play Disc"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Skin Help"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr ""
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr ""
+
+  

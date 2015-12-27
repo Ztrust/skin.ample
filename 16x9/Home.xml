@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window>
-	<backgroundcolor>white</backgroundcolor>
+	<backgroundcolor>backgroundcolor</backgroundcolor>
 	<defaultcontrol always="true">9000</defaultcontrol>
-
-	<controls>
 	
+	<controls>
 		<!--<include>GlobalBackground</include>-->
+	<!-- help for skinning -->
 	<control type="grouplist" id="9010">
 			<description>Home List</description>
-			<visible allowhiddenfocus="true">Container(9000).Hasfocus(14)</visible>
-			<!--<focusposition>2</focusposition>-->
-			<!--<orientation>horizontal</orientation>-->
+			<visible allowhiddenfocus="true">Container(9000).Hasfocus(15)</visible>
 			<left>335</left>
 			<top>400</top>
 			<width>400</width>
@@ -20,48 +18,41 @@
 			<ondown>9010</ondown>
 			<onleft>9000</onleft>
 			<onright>9000</onright>
-            <onback>9000</onback>
-
-
-		<control type="button" id="22">
-		<width>330</width>
-		<align>left</align>
-		<textcolor>grey2</textcolor>
-		<focusedcolor>Blue</focusedcolor>
-		<label>dialog yes no</label>
-		<onclick>ActivateWindow(100)</onclick>
-		<texturefocus border="5">commen/fobutton.png</texturefocus>
-		<texturenofocus border="2">-</texturenofocus>
+			<onback>9000</onback>
+			
+			<control type="button" id="22">
+				<width>330</width>
+				<align>left</align>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>Blue</focusedcolor>
+				<label>dialog yes no</label>
+				<onclick>ActivateWindow(100)</onclick>
+				<texturefocus border="5">commen/fobutton.png</texturefocus>
+				<texturenofocus border="2">-</texturenofocus>
+			</control>
+			<control type="button" id="23">
+				<width>330</width>
+				<align>left</align>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>Blue</focusedcolor>
+				<label>dialog progress</label>
+				<onclick>ActivateWindow(101)</onclick>
+				<texturefocus border="5">commen/fobutton.png</texturefocus>
+				<texturenofocus border="2">-</texturenofocus>
+			</control>
+			<control type="button" id="24">
+				<width>330</width>
+				<align>left</align>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>Blue</focusedcolor>
+				<label>dialog ok</label>
+				<onclick>ActivateWindow(2002)</onclick>
+				<texturefocus border="5">commen/fobutton.png</texturefocus>
+				<texturenofocus border="2">-</texturenofocus>
+			</control>
 		</control>
-		
-    <control type="button" id="23">
-		<width>330</width>
-		<align>left</align>
-		<textcolor>grey2</textcolor>
-		<focusedcolor>Blue</focusedcolor>
-		<label>dialog progress</label>
-		<onclick>ActivateWindow(101)</onclick>
-		<texturefocus border="5">commen/fobutton.png</texturefocus>
-		<texturenofocus border="2">-</texturenofocus>
-		</control>
 
-		<control type="button" id="24">
-		<width>330</width>
-		<align>left</align>
-		<textcolor>grey2</textcolor>
-		<focusedcolor>Blue</focusedcolor>
-		<label>dialog ok</label>
-		<onclick>ActivateWindow(2002)</onclick>
-		<texturefocus border="5">commen/fobutton.png</texturefocus>
-		<texturenofocus border="2">-</texturenofocus>
-		</control>	
-
-
-
-</control>
-
-		
-		<control type="wraplist" id="9000">
+<control type="wraplist" id="9000">
 			<description>Home List</description>
 			<focusposition>2</focusposition>
 			<orientation>horizontal</orientation>
@@ -73,10 +64,9 @@
 			<ondown>9010</ondown>
 			<onleft>9000</onleft>
 			<onright>9000</onright>
-			
 			<itemlayout width="250" height="60">
-				
-				<control type="label">
+			
+			<control type="label">
 					<left>0</left>
 					<height>60</height>
 					<width>240</width>
@@ -84,11 +74,9 @@
 					<align>center</align>
 					<textcolor>grey2</textcolor>
 					<font>Menu</font>
-<label>$INFO[ListItem.Label]</label>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
-			
 			</itemlayout>
-			
 			<focusedlayout width="250" height="60">
 				<control type="image">
 					<top>54</top>
@@ -99,114 +87,106 @@
 					<colordiffuse>darkgrey</colordiffuse>
 					<texture>commen/fobutton.png</texture>
 				</control>
-				
 				<control type="label">
 					<left>0</left>
 					<height>60</height>
 					<width>240</width>
 					<aligny>center</aligny>
 					<align>center</align>
-					<textcolor>darkgrey</textcolor>
+					<textcolor>focuscolor</textcolor>
 					<font>Menu</font>
-                    <label>$INFO[ListItem.Label]</label>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 			</focusedlayout>
-			
 			<content>
 
-				<item id="14">
-					<description>skin help</description>
-					<label>skinning</label>
-					<onclick>ActivateWindow(Programs,Addons)</onclick>
-				</item>
-				
-				
+
 				<item id="1">
-					<description>Programs</description>
-					<label>31002</label>
-					<onclick>ActivateWindow(Programs,Addons)</onclick>
-				</item>
-				
-				<item id="2">
 					<description>Videos</description>
-					<label>31003</label>
+					<label>$LOCALIZE[31001]</label>
 					<onclick>ActivateWindow(Video,Files)</onclick>
 				</item>
-				
-				<item id="3">
+				<item id="2">
 					<description>Music</description>
-					<label>31004</label>
-					<onclick>ActivateWindow(Music)</onclick>
+					<label>$LOCALIZE[31002]</label>
+					<onclick condition="!Library.HasContent(Music)">ActivateWindow(Music,root)</onclick>
+					<onclick>ActivateWindow(Music,artists,return)</onclick>
 				</item>
-				
-				<item id="4">
-					<description>Pictures</description>
-					<label>31005</label>
-					<onclick>ActivateWindow(Pictures)</onclick>
-				</item>
-				
-				<item id="5">
+
+				<item id="3">
 					<description>Movies</description>
-					<label>31006</label>
-					<onclick>ActivateWindow(Video,movietitles)</onclick>
+					<label>$LOCALIZE[31003]</label>
+					<onclick>ActivateWindow(Video,movietitles,return)</onclick>
 					<visible>Library.HasContent(Movies)</visible>
 				</item>
-				
-				<item id="6">
+				<item id="4">
 					<description>TV Shows</description>
-					<label>31007</label>
-					<onclick>ActivateWindow(Video,tvshowtitles)</onclick>
+					<label>$LOCALIZE[31004]</label>
+					<onclick>ActivateWindow(Video,tvshowtitles,return)</onclick>
 					<visible>Library.HasContent(TVShows)</visible>
 				</item>
-				
+                    <item id="5">
+						<description>TV</description>
+                        <label>$LOCALIZE[31005]</label>
+                        <onclick>ActivateWindow(TVChannels)</onclick>
+                        <visible>PVR.HasTVChannels</visible>
+                    </item>
+				<item id="6">
+					<description>Programs</description>
+					<label>$LOCALIZE[31006]</label>
+					<onclick>ActivateWindow(Programs,Addons,return)</onclick>
+				</item>
 				<item id="7">
+					<description>Pictures</description>
+					<label>$LOCALIZE[31007]</label>
+					<onclick>ActivateWindow(Pictures)</onclick>
+				</item>
+				<item id="8">
 					<description>Favourites</description>
-					<label>31008</label>
+					<label>$LOCALIZE[31008]</label>
 					<onclick>ActivateWindow(Favourites)</onclick>
 				</item>
-				
-				<item id="8">
-					<description>Profiles</description>
-					<label>31009</label>
-					<onclick>ActivateWindow(Profiles)</onclick>
-				</item>
-				
 				<item id="9">
-					<description>Weather</description>
-					<label>31010</label>
-					<onclick>ActivateWindow(weather)</onclick>
-				</item>
-				
-				<item id="10">
-					<description>File manager</description>
-					<label>31011</label>
-					<onclick>ActivateWindow(filemanager)</onclick>
-				</item>
-				
-				<item id="11">
 					<description>Settings</description>
-					<label>31012</label>
+					<label>$LOCALIZE[31009]</label>
 					<onclick>ActivateWindow(settings)</onclick>
 				</item>
-				
+				<item id="10">
+					<description>Profiles</description>
+					<label>$LOCALIZE[31010]</label>
+					<onclick>ActivateWindow(Profiles)</onclick>
+				</item>
+				<item id="11">
+					<description>Weather</description>
+					<label>$LOCALIZE[31011]</label>
+					<onclick>ActivateWindow(weather)</onclick>
+				</item>
 				<item id="12">
+					<description>File manager</description>
+					<label>$LOCALIZE[31012]</label>
+					<onclick>ActivateWindow(filemanager)</onclick>
+				</item>
+				<item id="13">
 					<description>Shutdown</description>
-					<label>31013</label>
+					<label>$LOCALIZE[31013]</label>
 					<onclick>ActivateWindow(shutdownmenu)</onclick>
 				</item>
-				
-				<item id="13">
+				<item id="14">
 					<description>Play Disc</description>
-					<label>31014</label>
+					<label>$LOCALIZE[31014]</label>
 					<onclick>PlayDVD</onclick>
 					<visible>System.HasMediadvd</visible>
 				</item>
+				<item id="15">
+					<description>Skin Help</description>
+					<label>$LOCALIZE[31015]</label>
+					<onclick>-</onclick>
+				</item>
 			
 			</content>
-			
 		</control>
-		
-		<control type="rss">
+	
+	<control type="rss">
 			<description>RSS Feed</description>
 			<left>0</left>
 			<top>1035</top>
@@ -218,6 +198,5 @@
 			<headlinecolor>White</headlinecolor>
 			<textcolor>White</textcolor>
 		</control>
-	
 	</controls>
 </window>
