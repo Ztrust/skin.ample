@@ -51,6 +51,7 @@
 				<texturenofocus border="2">-</texturenofocus>
 			</control>
 		</control>
+	<!-- help for skinning -->
 
 <control type="wraplist" id="9000">
 			<description>Home List</description>

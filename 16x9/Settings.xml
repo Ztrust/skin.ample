@@ -1,107 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Foundation -->
-<window id="4">
+<window>
+	<backgroundcolor>backgroundcolor</backgroundcolor>
 	<defaultcontrol always="true">9000</defaultcontrol>
 
 
 	<controls>
 
-		<include>GlobalBackground</include>
+		<!--<include>GlobalBackground</include>-->
 
-		<control type="list" id="9000">
-			<left>780</left>
-			<top>162</top>
-			<width>360</width>
-			<height>966</height>
-			<onup>9000</onup>
-			<ondown>9000</ondown>
-			<viewtype label="List">list</viewtype>
-			<scrolltime>200</scrolltime>
-			<itemlayout width="360" height="69">
+<control type="wraplist" id="9000">
+			<description>settings List</description>
+			<focusposition>2</focusposition>
+			<orientation>horizontal</orientation>
+			<left>335</left>
+			<top>120</top>
+			<width>1250</width>
+			<height>60</height>
+			<onup>-</onup>
+			<ondown>9010</ondown>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<itemlayout width="250" height="60">
 
-				<control type="image">
-					<width>360</width>
-					<height>66</height>
-					<texture border="2">other_textures/ButtonNF.png</texture>
-				</control>
-
-				<control type="label">
-					<left>180</left>
-					<width>300</width>
-					<font>Medium</font>
+			<control type="label">
+					<left>0</left>
+					<height>60</height>
+					<width>240</width>
+					<aligny>center</aligny>
 					<align>center</align>
+					<textcolor>grey2</textcolor>
+					<font>Menu</font>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
-
 			</itemlayout>
-
-			<focusedlayout width="360" height="69">
-
+			<focusedlayout width="250" height="60">
 				<control type="image">
-					<width>360</width>
-					<height>66</height>
-					<texture border="5">other_textures/ButtonFo.png</texture>
-				</control>
-
-				<control type="label">
-					<left>180</left>
-					<width>300</width>
-					<font>Medium</font>
+					<top>54</top>
+					<width>240</width>
+					<height>46</height>
+					<aligny>center</aligny>
 					<align>center</align>
+					<colordiffuse>darkgrey</colordiffuse>
+					<texture>commen/fobutton.png</texture>
+				</control>
+				<control type="label">
+					<left>0</left>
+					<height>60</height>
+					<width>240</width>
+					<aligny>center</aligny>
+					<align>center</align>
+					<textcolor>focuscolor</textcolor>
+					<font>Menu</font>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
-
 			</focusedlayout>
 
 			<content>
 				<item id="1">
 					<description>Appearance</description>
-					<label>480</label>
+					<label>$LOCALIZE[480]</label>
 					<onclick>activatewindow(AppearanceSettings)</onclick>
 				</item>
 				<item id="2">
 					<description>Videos</description>
-					<label>3</label>
+					<label>$LOCALIZE[3]</label>
 					<onclick>activatewindow(VideosSettings)</onclick>
+				</item>
+				<item id="11">
+					<label>$LOCALIZE[31102]</label>
+					<!--<label2>31409</label2>-->
+					<onclick>ActivateWindow(PVRSettings)</onclick>
 				</item>
 				<item id="3">
 					<description>Music</description>
-					<label>2</label>
+					<label>$LOCALIZE[2]</label>
 					<onclick>activatewindow(MusicSettings)</onclick>
 				</item>
 				<item id="4">
 					<description>Addons</description>
-					<label>24001</label>
+					<label>$LOCALIZE[24001]</label>
 					<onclick>activatewindow(AddonBrowser)</onclick>
 				</item>
 				<item id="5">
 					<description>Pictures</description>
-					<label>1</label>
+					<label>$LOCALIZE[1]</label>
 					<onclick>activatewindow(PicturesSettings)</onclick>
 				</item>
 				<item id="6">
 					<description>Weather</description>
-					<label>8</label>
+					<label>$LOCALIZE[8]</label>
 					<onclick>activatewindow(WeatherSettings)</onclick>
 				</item>
 				<item id="7">
 					<description>Services</description>
-					<label>14036</label>
+					<label>$LOCALIZE[14036]</label>
 					<onclick>activatewindow(NetworkSettings)</onclick>
 				</item>
 				<item id="8">
 					<description>System</description>
-					<label>13000</label>
+					<label>$LOCALIZE[13000]</label>
 					<onclick>activatewindow(SystemSettings)</onclick>
 				</item>
 				<item id="9">
 					<description>Profiles</description>
-					<label>13200</label>
+					<label>$LOCALIZE[13200]</label>
 					<onclick>activatewindow(Profiles)</onclick>
 				</item>
 				<item id="10">
 					<description>System Info</description>
-					<label>130</label>
+					<label>$LOCALIZE[130]</label>
 					<onclick>activatewindow(7)</onclick>
 				</item>
 
